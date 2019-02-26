@@ -1,0 +1,9 @@
+<!--pages/answerErr/index.wxml-->
+<wux-result
+    icon="{{ icon }}"
+    title="加载失败"
+    label="题目加载失败，返回重新加载。"
+    buttons="{{ buttons }}"
+    fixed
+    bind:click="onClick"
+/>

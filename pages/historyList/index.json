@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "测试记录",
+  "usingComponents": {
+    "i-cell": "../../dist/cell/index",
+    "i-cell-group": "../../dist/cell-group/index",
+    "i-spin": "../../dist/spin/index"
+  }
+}

@@ -1,0 +1,15 @@
+<!--pages/select/index.wxml-->
+<view>
+  <view class='selectIcon'>
+    <image src='/images/select.png' class='answer'></image>
+  </view>
+  <picker bindchange='changeMenu' value="{{index}}" range="{{questionMenu}}">
+    <view class='selectQuestionMenu'>
+      {{selectQuestionMenu}}
+    </view>
+  </picker>
+
+  <view class='start' bindtap='startAnswer'>
+    开始答题
+  </view>
+</view>

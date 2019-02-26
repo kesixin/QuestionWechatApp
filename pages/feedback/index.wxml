@@ -1,0 +1,10 @@
+<!--pages/feedback/index.wxml-->
+<view>
+  <form bindsubmit="formSubmit">
+    <i-panel title="反馈意见">
+      <i-input value="{{ value1 }}" type="textarea" title="联系电话" placeholder="请输入手机号" maxlength="11" type="number" bind:change="handleChange1" />
+      <i-input value="{{ value2 }}" type="textarea" title="反馈内容" placeholder="请输入反馈内容" maxlength="500" bind:change="handleChange2" />
+      <button class="i-btn i-btn-small i-btn-primary i-btn-circle" hover-class="i-btn-hover" formType="submit">提交</button>
+    </i-panel>
+  </form>
+</view>

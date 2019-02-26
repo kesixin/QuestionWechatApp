@@ -1,0 +1,16 @@
+{
+  "usingComponents": {
+    "i-spin": "../../dist/spin/index",
+    "i-row": "../../dist/row/index",
+    "i-col": "../../dist/col/index",
+    "i-tag": "../../dist/tag/index",
+    "i-panel": "../../dist/panel/index",
+    "i-radio-group": "../../dist/radio-group/index",
+    "i-radio": "../../dist/radio/index",
+    "i-page": "../../dist/page/index",
+    "i-checkbox-group": "../../dist/checkbox-group/index",
+    "i-checkbox": "../../dist/checkbox/index",
+    "i-icon": "../../dist/icon/index",
+    "i-action-sheet": "../../dist/action-sheet/index"
+  }
+}
