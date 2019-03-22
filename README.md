@@ -4,6 +4,8 @@
 
 部署文档：https://www.jianshu.com/p/59d817c86ada
 
+联系QQ：903363777
+
 ### 小程序二维码：
 
 ![小程序二维码](https://upload-images.jianshu.io/upload_images/6673460-3c2243fe6ac4af31.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
