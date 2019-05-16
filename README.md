@@ -4,6 +4,8 @@
 
 部署文档：https://www.jianshu.com/p/59d817c86ada
 
+云数据库购买：https://www.bmob.cn/shop/detail/590 , https://www.bmob.cn/shop/detail/560
+
 联系QQ：903363777
 
 ### 小程序二维码：
