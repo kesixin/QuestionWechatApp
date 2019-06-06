@@ -2,19 +2,21 @@
 
 ## 效果图
 
-![](https://www.bmob.cn/uploads/attached/img/20190605/5cf7bea065c51.jpg)
+![](https://bmob-cdn-19897.bmobcloud.com/2019/06/06/da69318b40dd7aec80eddbb27a82ca07.jpg)
 
-![](https://www.bmob.cn/uploads/attached/img/20190605/5cf7bea4ce7d8.jpg)
+![](https://bmob-cdn-19897.bmobcloud.com/2019/06/06/b55dbc5040084d3e80bc25f2fb598bd4.jpg)
 
-![](https://www.bmob.cn/uploads/attached/img/20190605/5cf7bea9d6422.jpg)
+![](https://bmob-cdn-19897.bmobcloud.com/2019/06/06/41f120f140acf95d80810e591b800540.jpg)
 
-![](https://www.bmob.cn/uploads/attached/img/20190605/5cf7beaf0b9fa.jpg)
+![](https://bmob-cdn-19897.bmobcloud.com/2019/06/06/5064bd77408508228079ec9d4b340d78.jpg)
 
-![](https://www.bmob.cn/uploads/attached/img/20190605/5cf7beb335960.jpg)
+![](https://bmob-cdn-19897.bmobcloud.com/2019/06/06/a73a3e8040fa114580141b51819c5e5c.jpg)
+
+![](https://bmob-cdn-19897.bmobcloud.com/2019/06/06/5e78602440663e478088d3d5fcd82211.jpg)
 
 ## 小程序二维码
 
-![](https://www.bmob.cn/uploads/attached/app/logo/20190605/5c816d6f-dd4c-633d-2354-a0c4c07d6365.jpg)
+![](https://bmob-cdn-19897.bmobcloud.com/2019/06/06/29815c7d4098f845808a424169a2738d.jpg)
 
 智汇答题小程序，适用于考核，评测等场景，分为四大功能：练习，答题，错题集，排名；练习功能分为答题模式和背题模式，答题模式可以在答完题目显示正确答案和帮助提示，可以进行跳题作答，背题模式可以直接查看正确答案和帮助提示，实时查看答题卡，统计答题情况，记忆功能，能够继续上次答题，也可以清除答题记录，重新答题。答题功能主要包括倒计时功能，随机取题功能，可单独对每个分类设置取题数量，答题时间，可以进行跳题作答，交卷评分，倒计时自动提示交卷；记忆功能，保存可下次继续做题。题目，帮助解释支持文字，图片。错题集功能主要是针对练习和答题两大模块的作答错题进行分类收集，可像练习功能一样进行答题模式和背题模式的作答方式，可移除错题，具有针对性的答题。排名功能可以对每套试卷的作答人员进行分数等排名；答题记录可以随时查看用户的测试记录；针对部门考核，可以开启信息审核功能，只有通过审核的人员才可进入答题。支持开启和禁用练习功能。本程序还搭配管理后台，管理用户，系统设置，后台审核用户信息，发送模板消息通知用户，可以随时增加套题，增加题目，编辑题目，删除题目，以及使用模板批量的导入题目，查看答题记录，查看反馈意见等，非常方便实用！
 
