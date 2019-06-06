@@ -26,32 +26,24 @@
 
 ### 小程序二维码：
 
-![小程序二维码](http://upload-images.jianshu.io/upload_images/6673460-3c2243fe6ac4af31.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![小程序二维码](https://www.bmob.cn/uploads/attached/app/logo/20190321/06fb1092-366a-1e6f-beb6-3d4de3c39f98.jpg)
 
 
 ### 小程序展示图：
-![欢迎页](http://upload-images.jianshu.io/upload_images/6673460-9fd2b3f9931e593d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://www.bmob.cn/uploads/attached/img/20190321/5c937261e4123.jpg)
 
-![首页](http://upload-images.jianshu.io/upload_images/6673460-d41a7304f3bf72f1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://www.bmob.cn/uploads/attached/img/20190321/5c937269e00dc.jpg)
 
-![答题模式](http://upload-images.jianshu.io/upload_images/6673460-4180239205f6a3c9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://www.bmob.cn/uploads/attached/img/20190321/5c93727674dd5.jpg)
 
-![背题模式](http://upload-images.jianshu.io/upload_images/6673460-fc5c2c92c0e169f5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://www.bmob.cn/uploads/attached/img/20190321/5c93727f1c6a0.jpg)
 
-![答题页](http://upload-images.jianshu.io/upload_images/6673460-07e5e0573bc3f844.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://www.bmob.cn/uploads/attached/img/20190321/5c9372894f15a.jpg)
 
-![题目选项](http://upload-images.jianshu.io/upload_images/6673460-afeb70f4e6c84354.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-![个人信息页](http://upload-images.jianshu.io/upload_images/6673460-d60226ece35378f3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![个人中心](http://upload-images.jianshu.io/upload_images/6673460-3a1819a8d6b6d105.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![审核结果通知](http://upload-images.jianshu.io/upload_images/6673460-d7fcc97ecf20fbf3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 后台展示图：
 
-![后台](http://upload-images.jianshu.io/upload_images/6673460-eafcff465afa5984.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![后台](https://bmob-cdn-19897.bmobcloud.com/2019/04/30/710df97f401a279a80bcce2c42a61dab.jpg)
 
 
 答题酷小程序，适用于考核，评测等场景，分为四大功能：答题，错题集，排名，答题记录；答题功能具有单项选择题和多项选择题，实时查看答题卡，倒计时功能，交卷评分，倒计时自动提示交卷；记忆功能，保存可下次继续做题。题目支持文字，图片，音频，视频。错题集会自动记录用户在答题中答错的题目，让用户可以复习，查看题目分析帮助，并且可以随时移除题目，可以翻看答题情况，跳题查看错题集题目；排名功能可以对每套试卷的作答人员进行分数等排名；答题记录可以随时查看用户的测试记录，查看分析帮助，帮助解析支持文字，图片，音频，视频。有助于查漏补缺。本程序还搭配管理后台，管理用户，系统设置，可以随时增加套题，增加题目，编辑题目，删除题目，以及使用模板批量的导入题目，非常方便实用！作者QQ：903363777
@@ -60,24 +52,24 @@
 #####  项目地址：https://github.com/kesixin/QuestionWeChatApp
 
 ### 效果图
-![](http://upload-images.jianshu.io/upload_images/6673460-def5a21295cf2f2a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://www.bmob.cn/uploads/attached/img/20181218/5c18945f84c41.jpg)
 
-![](http://upload-images.jianshu.io/upload_images/6673460-32b7bdc68887a7ca.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://www.bmob.cn/uploads/attached/img/20181218/5c1894655e470.jpg)
 
-![](http://upload-images.jianshu.io/upload_images/6673460-802f7b8df9d44aeb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://www.bmob.cn/uploads/attached/img/20181218/5c1894698d769.jpg)
 
-![](http://upload-images.jianshu.io/upload_images/6673460-e9e35f5f1dd79925.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://www.bmob.cn/uploads/attached/img/20181218/5c18946ec2011.jpg)
 
-![](http://upload-images.jianshu.io/upload_images/6673460-7b1d5a8687b66837.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://www.bmob.cn/uploads/attached/img/20181218/5c1894719c64a.jpg)
 
 ### 小程序二维码
-![](http://upload-images.jianshu.io/upload_images/6673460-3e5bae283d0ab417.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://www.bmob.cn/uploads/attached/app/logo/20181218/3843aba5-1b47-acd0-bffa-7aebbe4d4d2a.jpg)
 
 ### 后台界面
 
-![1545118864(1).jpg](http://upload-images.jianshu.io/upload_images/6673460-22bcd3f8f30ed1a2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![1545118864(1).jpg](https://bmob-cdn-19897.bmobcloud.com/2019/04/30/43896e9f405eb706801d9864ad85a7d5.jpg)
 
-![1545118837(1).jpg](http://upload-images.jianshu.io/upload_images/6673460-9c025cce1c032c3a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![1545118837(1).jpg](https://bmob-cdn-19897.bmobcloud.com/2019/04/30/3212759740f89312802c3831e66e96ae.jpg)
 
 
 
