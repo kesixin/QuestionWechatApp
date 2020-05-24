@@ -21,7 +21,7 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#2db7f5",
     "navigationBarTitleText": "答题酷",
-    "navigationBarTextStyle": "#fff"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "selectedColor": "#2db7f5",
@@ -52,5 +52,6 @@
         "pagePath": "pages/my/index"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
