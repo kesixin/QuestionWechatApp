@@ -1,5 +1,4 @@
 ### 特此声明智汇答题Plus为原创作品，小肥羊/在线答题小程序 盗版原创智汇答题Plus 
-[声明：社区用户 小肥羊 盗版个人开发小程序 智汇答题Plus，以此来获取个人利益](https://developers.weixin.qq.com/community/develop/article/doc/000aeedb6a0c9824316ae43305d813)
 
 
 ### 个人QQ
