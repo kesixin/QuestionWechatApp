@@ -1,11 +1,11 @@
 ### 特此声明智汇答题Plus为原创作品，请尊重原创！“小肥羊/在线答题小程序”盗版原创智汇答题Plus 
 
 
-### 个人QQ
+### 个人QQ(903363777)
 
 ![QQ](https://images.gitee.com/uploads/images/2020/0611/142151_161de7d9_1400710.jpeg)
 
-### 个人微信
+### 个人微信(kossfirst)
 
 ![微信](https://images.gitee.com/uploads/images/2020/0611/142237_c6650be9_1400710.jpeg)
 
