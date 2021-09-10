@@ -62,13 +62,19 @@
 
 ### 党建答题小程序
 
-![党建答题小程序](https://images.gitee.com/uploads/images/2021/0910/105406_2d1b09e5_1400710.jpeg "微信图片_20210910103133.jpg")
-![首页](https://images.gitee.com/uploads/images/2021/0910/105610_3082b306_1400710.png "微信图片_20210910105601.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0910/105756_aa1b243b_1400710.png "微信图片_20210910105734.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0910/105816_e5bbbad7_1400710.png "微信图片_20210910105807.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0910/105835_aefb7a42_1400710.png "微信图片_20210910105823.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0910/105910_c5c626c6_1400710.png "微信图片_20210910105845.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0910/105936_292d9125_1400710.png "微信图片_20210910105929.png")
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/1491932be9dae96a18f0969c2e3a9f72.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/1b68a5424c6c86f4528766e71d5fa4a1.png)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/3e61c467ab1e98ae4d2c6bce8b6b8276.png)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/6a21325592b0ccded8cb8c37286fd636.png)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/bc927d88d6e5515259d8191af0cb7de7.png)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/c6dbd193c5284ba179a227b6227f938d.png)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/89d21d235e8703b547b3507fc6db2dac.png)
 
 
 
