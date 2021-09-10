@@ -4,14 +4,15 @@
 
 ### 原创作品，请尊重原创！
 
+### 个人微信(kossfirst)
+
+![微信](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/d8f8b5b8405965ae803127288207248c.jpg)
+
 
 ### 个人QQ(903363777)
 
-![QQ](https://images.gitee.com/uploads/images/2020/0611/142151_161de7d9_1400710.jpeg)
+![QQ](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/005854a84090f6d180ab6d0df5a2684e.jpg)
 
-### 个人微信(kossfirst)
-
-![微信](https://images.gitee.com/uploads/images/2020/0611/142237_c6650be9_1400710.jpeg)
 
 ### 简介
 智汇答题Plus小程序适用于考核，评测等场景，分为五大功能：练习，考试，错题，收藏，排名；练习功能分为顺序答题和随机答题，模式分为答题模式和背题模式，答题模式可以在答完题目显示正确答案和帮助提示，可以进行跳题作答，背题模式可以直接查看正确答案和帮助提示，实时查看答题卡，统计答题情况，记忆功能，能够继续上次答题，也可以清除答题记录，重新答题。考试功能主要包括倒计时功能，随机取题功能，可单独对每个分类设置取题数量，答题时间，可以进行跳题作答，交卷评分，倒计时自动提示交卷；记忆功能，保存可下次继续做题。错题集功能主要是针对练习和答题两大模块的作答错题进行分类收集，可像练习功能一样进行答题模式和背题模式的作答方式，可移除错题，具有针对性的答题。收藏功能可以针对重点题目，错误题目进行收藏，然后重新重点练习；排名功能可以对每套试卷的作答人员进行分数等排名；答题记录可以随时查看用户的测试记录；针对部门考核，可以开启信息审核功能，只有通过审核的人员才可进入答题。支持开启和禁用练习功能。本程序还搭配管理后台，管理用户，系统设置，后台审核用户信息，发送模板消息通知用户，可以随时增加套题，增加题目，编辑题目，删除题目，以及使用模板批量的导入题目，查看答题记录，查看反馈意见等，非常方便实用！还附带说明完整的部署操作文档，以及小程序上线操作。
@@ -30,77 +31,60 @@
 * 小程序必须使用https协议 443端口
 
 ### 效果图
-![小程序二维码](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2019-07-22/gh_da15c43d0fd5_344.jpg)
+![小程序二维码](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/642e87d1404185da806a7e5856212f54.jpg)
 
 
-![欢迎页.jpg](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2019-07-22/%E6%AC%A2%E8%BF%8E%E9%A1%B5.jpg)
+![欢迎页.jpg](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/2857d90540055413809d81989423d890.jpg)
 
-![分类.jpg](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2019-07-22/%E5%88%86%E7%B1%BB.jpg)
+![分类.jpg](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/f6bcd8a8408506d2807a71476c67df1a.jpg)
 
-![首页.jpg](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2019-07-22/%E9%A6%96%E9%A1%B5.jpg)
+![首页.jpg](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/683d65de40b5bcfa8028e7137cb6edd2.jpg)
 
-![练习.jpg](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2019-07-22/%E7%BB%83%E4%B9%A0.jpg)
+![练习.jpg](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/e7a2187e407c5f49809120b3746bcc96.jpg)
 
-![答题.jpg](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2019-07-22/%E7%AD%94%E9%A2%98.jpg)
+![答题.jpg](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/e09df14e40e324e780de0e87f35a4490.jpg)
 
-![我的.jpg](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2019-07-22/%E6%88%91%E7%9A%84.jpg)
+![审核.jpg](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/3b3187bd40fccda6802893d9cc352ec1.jpg)
 
-![排行榜.jpg](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2019-07-22/%E6%8E%92%E8%A1%8C%E6%A6%9C.jpg)
+![我的.jpg](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/1347d8ad400a77c680ec0677f8993abe.jpg)
 
-![用户列表.jpg](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2019-07-22/%E7%94%A8%E6%88%B7%E5%88%97%E8%A1%A8.jpg)
+![排行榜.jpg](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/e115ffff40bbeb41808f60f7f9da404b.jpg)
 
-![类别列表.jpg](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2019-07-22/%E7%B1%BB%E5%88%AB%E5%88%97%E8%A1%A8.jpg)
+![用户列表.jpg](https://images.gitee.com/uploads/images/2020/0611/100705_b81d2ec6_1400710.jpeg)
 
-![题目列表.jpg](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2019-07-22/%E9%A2%98%E7%9B%AE%E5%88%97%E8%A1%A8.jpg)
+![类别列表.jpg](https://images.gitee.com/uploads/images/2020/0611/100706_1f2c6f3e_1400710.jpeg)
 
-![编辑题目.jpg](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2019-07-22/%E7%BC%96%E8%BE%91%E9%A2%98%E7%9B%AE.jpg)
+![题目列表.jpg](https://images.gitee.com/uploads/images/2020/0611/100705_ee4dd452_1400710.jpeg)
 
-
-
-
-
+![编辑题目.jpg](https://images.gitee.com/uploads/images/2020/0611/100705_f4f464fd_1400710.jpeg)
 
 ### 党建答题小程序
 
-![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/1491932be9dae96a18f0969c2e3a9f72.jpg)
-
-![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/1b68a5424c6c86f4528766e71d5fa4a1.png)
-
-![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/3e61c467ab1e98ae4d2c6bce8b6b8276.png)
-
-![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/6a21325592b0ccded8cb8c37286fd636.png)
-
-![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/bc927d88d6e5515259d8191af0cb7de7.png)
-
-![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/c6dbd193c5284ba179a227b6227f938d.png)
-
-![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2021-09-10/89d21d235e8703b547b3507fc6db2dac.png)
-
-
-
-
-
+![党建答题小程序](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/505df4c54070609580c5be5f935e536f.jpg)
+![首页](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/e8bd45854043ef96804853a1ea59c2f2.png)
+![输入图片说明](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/a646b99340f1f13580c6cbed051848a6.png)
+![输入图片说明](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/70592eeb402a8eab80fa7c49fc0c3c6d.png)
+![输入图片说明](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/5d70c52c40391ba880f2aea2093ba5db.png)
+![输入图片说明](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/d8aae28e409dde6b80d9b1d5e07d281a.png)
+![输入图片说明](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/223e1c6540d268e880ce307d0b9c5534.png)
 
 智汇驾考小程序，适用于驾考科目一，科目四考题的练习，覆盖驾驶证和资格证的考试，包括小车，货车，客车，摩托车，教练员，客运，货运，危险品，出租车，网约车等车型。功能包括：练习，答题，错题集，图标速记。练习功能分为答题模式和背题模式，答题模式可以在答完题目显示正确答案和帮助提示，可以进行跳题作答，背题模式可以直接查看正确答案和帮助提示，实时查看答题卡，统计答题情况，记忆功能，能够继续上次答题，也可以清除答题记录，重新答题。答题功能主要包括倒计时功能，随机取题功能，可以进行跳题作答，交卷评分，倒计时自动提示交卷。记忆功能，保存可下次继续做题。错题集功能主要是针对练习和答题两大模块的作答错题进行分类收集，可像练习功能一样进行答题模式和背题模式的作答方式，可移除错题，具有针对性的答题。图标速记功能，可展示各种交通图标，分类显示，可进行滑动显示，增强记忆。本程序还搭配管理后台，管理用户，可以随时更换套题，增加题目，编辑题目，删除题目，以及使用模板批量的导入题目，查看反馈意见等，非常方便实用！
 
 ## 效果图
+![](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/ee7154d6400c8d358091d39f801410c6.jpg)
 
-![](https://images.gitee.com/uploads/images/2020/0611/100706_61a2e59e_1400710.jpeg)
+![](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/11cef7d840bd9b6380f7de78aba23bbc.jpg)
 
-![](https://images.gitee.com/uploads/images/2020/0611/100706_f9f3e6db_1400710.jpeg)
+![](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/4dadce4f4058e2f78043643fd536a123.jpg)
 
-![](https://images.gitee.com/uploads/images/2020/0611/100706_fb3ca3c4_1400710.jpeg)
+![](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/5ece5017409f82f580cde5289e5a382a.jpg)
 
-![](https://images.gitee.com/uploads/images/2020/0611/100706_812673b7_1400710.jpeg)
+![](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/5f19612740980b3280f447eacb462fb0.jpg)
 
-![](https://images.gitee.com/uploads/images/2020/0611/100706_6f2db64d_1400710.jpeg)
+![](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/cce28cca4082b414802d7ffaa1eb993a.jpg)
 
-![](https://images.gitee.com/uploads/images/2020/0611/100706_0e9f2cb7_1400710.jpeg)
+![](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/abe2c1da407cac738056c5a27fb746b0.jpg)
 
-
-## 小程序二维码
-
-![](https://bmob-cdn-19897.bmobcloud.com/2019/06/06/29815c7d4098f845808a424169a2738d.jpg)
 
 智汇答题小程序，适用于考核，评测等场景，分为四大功能：练习，答题，错题集，排名；练习功能分为答题模式和背题模式，答题模式可以在答完题目显示正确答案和帮助提示，可以进行跳题作答，背题模式可以直接查看正确答案和帮助提示，实时查看答题卡，统计答题情况，记忆功能，能够继续上次答题，也可以清除答题记录，重新答题。答题功能主要包括倒计时功能，随机取题功能，可单独对每个分类设置取题数量，答题时间，可以进行跳题作答，交卷评分，倒计时自动提示交卷；记忆功能，保存可下次继续做题。题目，帮助解释支持文字，图片。错题集功能主要是针对练习和答题两大模块的作答错题进行分类收集，可像练习功能一样进行答题模式和背题模式的作答方式，可移除错题，具有针对性的答题。排名功能可以对每套试卷的作答人员进行分数等排名；答题记录可以随时查看用户的测试记录；针对部门考核，可以开启信息审核功能，只有通过审核的人员才可进入答题。支持开启和禁用练习功能。本程序还搭配管理后台，管理用户，系统设置，后台审核用户信息，发送模板消息通知用户，可以随时增加套题，增加题目，编辑题目，删除题目，以及使用模板批量的导入题目，查看答题记录，查看反馈意见等，非常方便实用！
 
@@ -111,24 +95,23 @@
 
 ### 小程序二维码：
 
-![小程序二维码](https://www.bmob.cn/uploads/attached/app/logo/20190321/06fb1092-366a-1e6f-beb6-3d4de3c39f98.jpg)
+![小程序二维码](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/cfd3abd340b997648066e1b3f8eb01ef.jpg)
 
 
 ### 小程序展示图：
-![](https://www.bmob.cn/uploads/attached/img/20190321/5c937261e4123.jpg)
+![](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/481c6fa0403a5e4980ed7b86ebd9e9da.jpg)
 
-![](https://www.bmob.cn/uploads/attached/img/20190321/5c937269e00dc.jpg)
+![](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/401a400840831f6d80c709f7ab5497f1.jpg)
 
-![](https://www.bmob.cn/uploads/attached/img/20190321/5c93727674dd5.jpg)
+![](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/3b3187bd40fccda6802893d9cc352ec1.jpg)
 
-![](https://www.bmob.cn/uploads/attached/img/20190321/5c93727f1c6a0.jpg)
+![](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/b61e059340d0917380e69b3acb61e235.jpg)
 
-![](https://www.bmob.cn/uploads/attached/img/20190321/5c9372894f15a.jpg)
+![](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/17605dd640bbc83f80b1d34417b33222.jpg)
+
+![](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/266e754c40b2e37d80c5e35eb82845bf.jpg)
 
 
-### 后台展示图：
-
-![后台](https://bmob-cdn-19897.bmobcloud.com/2019/04/30/710df97f401a279a80bcce2c42a61dab.jpg)
 
 
 答题酷小程序，适用于考核，评测等场景，分为四大功能：答题，错题集，排名，答题记录；答题功能具有单项选择题和多项选择题，实时查看答题卡，倒计时功能，交卷评分，倒计时自动提示交卷；记忆功能，保存可下次继续做题。题目支持文字，图片，音频，视频。错题集会自动记录用户在答题中答错的题目，让用户可以复习，查看题目分析帮助，并且可以随时移除题目，可以翻看答题情况，跳题查看错题集题目；排名功能可以对每套试卷的作答人员进行分数等排名；答题记录可以随时查看用户的测试记录，查看分析帮助，帮助解析支持文字，图片，音频，视频。有助于查漏补缺。本程序还搭配管理后台，管理用户，系统设置，可以随时增加套题，增加题目，编辑题目，删除题目，以及使用模板批量的导入题目，非常方便实用！作者QQ：903363777
@@ -149,12 +132,6 @@
 
 ### 小程序二维码
 ![](https://www.bmob.cn/uploads/attached/app/logo/20181218/3843aba5-1b47-acd0-bffa-7aebbe4d4d2a.jpg)
-
-### 后台界面
-
-![1545118864(1).jpg](https://bmob-cdn-19897.bmobcloud.com/2019/04/30/43896e9f405eb706801d9864ad85a7d5.jpg)
-
-![1545118837(1).jpg](https://bmob-cdn-19897.bmobcloud.com/2019/04/30/3212759740f89312802c3831e66e96ae.jpg)
 
 
 
