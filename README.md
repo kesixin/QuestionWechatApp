@@ -58,8 +58,6 @@
 
 ![编辑题目.jpg](https://images.gitee.com/uploads/images/2020/0611/100705_f4f464fd_1400710.jpeg)
 
-:smile: 
-
 ### 党建答题小程序
 
 ![党建答题小程序](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/505df4c54070609580c5be5f935e536f.jpg)
