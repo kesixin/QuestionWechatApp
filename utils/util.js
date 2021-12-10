@@ -343,10 +343,21 @@ const getStatistics = (menu)=>{
     const query = wx.Bmob.Query('statistics')
     query.equalTo('menu','==',menu)
     query.find().then(res=>{
-      resolve({ 'result': res[0] })
+      if(res.length>0){
+        resolve({ 'result': res[0] })
+      }else{
+        query.set('menu', menu)
+        query.set('allScore', 0)
+        query.set('peopleNum', 0)
+        query.save().then(res2 => {
+          console.log(res2)
+          resolve({'result': res2})
+        })
+      }   
     })
   })
 }
+
 
 /**
  * 统计分数
