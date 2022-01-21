@@ -17,7 +17,10 @@
           <view class="confirm-btn" bindtap='goSign' wx:if="{{userInfo.avatarUrl}}">
             <text >立即进入</text>
           </view>
-          <button class="confirm-btn"  open-type="getUserInfo" bindgetuserinfo="bindgetuserinfo" wx:else>点击授权</button>
+          <block wx:else>
+            <button class="confirm-btn" wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 点击授权 </button>
+            <button class="confirm-btn"  open-type="getUserInfo" bindgetuserinfo="bindgetuserinfo" wx:else>点击授权</button>
+          </block>
         </view>
         <text class="copyright">© 2018 Mamba 倾情出品 </text>
       </view>

@@ -7,7 +7,6 @@
     "pages/answerErr/index",
     "pages/answerInfo/index",
     "pages/result/index",
-    "pages/logs/logs",
     "pages/analysis/index",
     "pages/wrong/index",
     "pages/wrongAnswer/index",
@@ -21,7 +20,7 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#2db7f5",
     "navigationBarTitleText": "答题酷",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "#fff"
   },
   "tabBar": {
     "selectedColor": "#2db7f5",
@@ -52,6 +51,5 @@
         "pagePath": "pages/my/index"
       }
     ]
-  },
-  "sitemapLocation": "sitemap.json"
+  }
 }
