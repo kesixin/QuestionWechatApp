@@ -1,6 +1,6 @@
 ### 微信小程序，考试小程序，答题小程序，刷题小程序。毕业设计小程序，有前后端完整源码和数据库，易于二次开发。还可用于考试活动，企业内部考核，内部培训等职业考试刷题。
 
-### 最新版原创答题小程序：考题星、党建答题、智汇答题Plus、智汇答题、智汇驾考、答题酷。
+### 最新版原创答题小程序：智慧考题宝、考题星、党建答题、智汇答题Plus、智汇答题、智汇驾考、答题酷。
 
 ### 如需使用请添加作者联系方式。
 
@@ -15,6 +15,69 @@
 
 ![QQ](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/005854a84090f6d180ab6d0df5a2684e.jpg)
 
+### 智慧考题宝介绍
+
+![二维码](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/7be982f56a07c6a19df46cb2a8758ee9.jpg)
+
+* 智慧考题宝小程序适用于考核，评测等场景，功能包括：练习模式（顺序答题，随机答题，专项答题，题型答题，高频错题）、背题模式、模拟考试、错题集、收藏题集、搜索题目、排行榜、签到功能，资讯文章，答题设置，答题音效，积分功能，多级题库分类。
+
+* 练习功能分为顺序练习、随机练习、专项练习，题型练习（支持的题型：单选，多选，判断，填空，多项填空，简答），高频错题；模式分为答题模式和背题模式，答题模式可以在答完题目显示正确答案和帮助提示，可以进行跳题作答，背题模式可以直接查看正确答案和帮助提示，实时查看答题卡，统计答题情况，记忆功能，能够继续上次答题，也可以清除答题记录，重新答题。
+
+* 模拟考试功能主要包括倒计时功能，随机取题功能，可单独对每个分类设置取题数量，题目分数，答题时间，答题数量，题目类型，可以进行跳题作答，交卷评分，倒计时自动提示交卷；记忆功能，保存可下次继续做题。
+
+* 错题集功能主要是针对练习和考试两大模块的作答错题进行分类收集，可像练习功能一样进行答题模式和背题模式的作答方式，可移除错题，具有针对性的答题。
+
+* 收藏功能可以针对重点题目，错误题目进行收藏，然后重新重点练习；
+
+* 排名功能可以对每套试卷的作答人员进行分数等排名；
+
+* 答题记录可以随时查看用户的测试记录；针对部门考核，可以开启信息审核功能，只有通过审核的人员才可进入答题。支持开启和禁用练习功能；
+
+* 签到功能可以让用户实时签到，保存签到记录，积分等。
+
+* 资讯文章功能包括资讯分类，文章的管理和发布，编辑，浏览数统计。
+
+* 后台功能支持系统管理，微信用户管理，题库管理，用户反馈，答题管理，配置管理，轮播图管理，积分管理，资讯管理，题库管理，用户反馈。
+
+* 系统管理主要包括权限管理，系统用户管理；权限管理可以控制后台用户操作权限，设置权限组，以及后台模块的新增，修改等功能；系统用户管理可以管理后台用户，包括后台用户信息，操作日志等；
+
+* 用户管理包括部门，用户，审核，签到的数据管理
+
+* 题库管理包括题库分类，分类专项，题目列表，批量导入题目，上传图片；题库分类可以设置时间，取题数量，答题时间，答题数量，题目类型，题型分数等；题目列表可以管理题目，修改，删除题目；支持批量导入题目，支持上传图片。
+
+* 用户反馈：可以对小程序提交的反馈进行查看，回复。
+
+* 答题管理包括答题活动，答题记录的管理，答题活动可以设置参与的部门，时间，取题数量，答题时间，答题数量，题目类型，题型分数等；支持导出答题活动记录。
+
+* 配置管理管理主要是针对系统的一些必要配置，运行配置等；
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/92a0664a7c16c9a6d9affa6581fa0e00.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/b00357ad11bfed7ca2cc0f06e5f6c719.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/fc89083bc3049ea8ab603b706ba041f5.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/47559e9e34e941251643bcd5ca150da8.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/630d2409e9097849849d521d9f0042b3.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/6e14ab9345783018108e88bff357f099.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/eef911b680e9d5241abbbfa8617ec640.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/f61f3dc5c7356581596f12b832b1b042.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/685b2a99e5b47711c04e36283db680a6.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/6dbefc841a3e06ef2db5524b0264c082.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/d124e787270caf685bcb47bde648f100.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/71134dcaefe505c753576e47702f4164.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/f69e85aff6710b0649446c509157042a.jpg)
+
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/eb87e748efa6a1efc0432bf772e93c92.jpg)
 
 ### 考题星介绍
 
