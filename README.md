@@ -8,12 +8,12 @@
 
 ### 个人微信(kossfirst)
 
-![微信](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/d8f8b5b8405965ae803127288207248c.jpg)
+![微信](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2023-01-16/fb8705c3c265445c0f19d72c1dd1e807.jpeg)
 
 
 ### 个人QQ(903363777)
 
-![QQ](https://bmob-cdn-24322.bmobcloud.com/2021/09/10/005854a84090f6d180ab6d0df5a2684e.jpg)
+![QQ](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2023-01-16/fd7054c9016fcf2dbf3144881bdfec88.jpeg)
 
 ### 智慧考题宝介绍
 
