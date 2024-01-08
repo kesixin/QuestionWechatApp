@@ -23,6 +23,8 @@
 
 ![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2024-01-08/1943309d6d7277d21b4c5838a709aa57.png)
 
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2024-01-08/3c77231123fd4c6f3aed87d2aaef16cf.png)
+
 
 * 智慧考题宝小程序适用于考核，评测等场景，功能包括：练习模式（顺序答题，随机答题，专项答题，题型答题，高频错题）、背题模式、模拟考试、错题集、收藏题集、搜索题目、排行榜、签到功能，资讯文章，答题设置，答题音效，积分功能，激活码功能，多级题库分类。
 
