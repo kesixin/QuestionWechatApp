@@ -15,6 +15,9 @@
 
 ![QQ](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2023-01-16/fd7054c9016fcf2dbf3144881bdfec88.jpeg)
 
+### 微信公众号
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2024-03-01/df75bce97c6bda96bb5958a987b1dc90.jpg)
+
 ### 智慧考题宝介绍
 
 ![二维码](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/7be982f56a07c6a19df46cb2a8758ee9.jpg)
