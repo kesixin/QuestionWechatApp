@@ -24,8 +24,6 @@
 
 ### 智汇考题体验链接
 
-### 智汇考题体验链接
-
 [智汇考题PC端](http://education.mambaxin.com)
 
 [智汇考题H5端](http://h5-education.mambaxin.com)
