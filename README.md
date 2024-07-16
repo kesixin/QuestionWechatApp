@@ -18,6 +18,14 @@
 ### 微信公众号
 ![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2024-03-01/df75bce97c6bda96bb5958a987b1dc90.jpg)
 
+### 智汇考题(支持java版和php版)
+![输入图片说明](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2024-07-16/6430e0c55aef0db89c11f9eb8584b337.png)
+
+智汇考题PC端：http://education.mambaxin.com
+
+
+智汇考题H5端：http://h5-education.mambaxin.com
+
 ### 智慧考题宝介绍
 
 ![二维码](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2022-12-08/7be982f56a07c6a19df46cb2a8758ee9.jpg)
