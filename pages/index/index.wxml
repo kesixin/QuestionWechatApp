@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="remind-box" wx:if="{{remind}}">
+    <image class="remind-img" src="../../images/loading.gif"></image>
+  </view>
+  <block wx:else>
+    <image class="title" src="../../images/title8.png"></image>
+    <view class="content">
+      <view class="hd" style="transform:rotateZ({{angle}}deg);">
+        <image class="logo" src="{{userInfo.avatarUrl}}"></image>
+        <image class="wave" src="../../images/wave.png" mode="aspectFill"></image>
+        <image class="wave wave-bg" src="../../images/wave.png" mode="aspectFill"></image>
+      </view>
+      <view class="bd">
+          <!-- <image class="smalltitle" src="../../images/confirm-word1.png"></image> -->
+        <view>
+          <view class="confirm-btn" bindtap='goSign' wx:if="{{userInfo.avatarUrl}}">
+            <text >立即进入</text>
+          </view>
+          <block wx:else>
+            <button class="confirm-btn" wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 点击授权 </button>
+            <button class="confirm-btn"  open-type="getUserInfo" bindgetuserinfo="bindgetuserinfo" wx:else>点击授权</button>
+          </block>
+        </view>
+        <text class="copyright">© 2018 Mamba 倾情出品 </text>
+      </view>
+    </view>
+  </block>
+</view>

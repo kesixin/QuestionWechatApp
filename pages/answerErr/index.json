@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "wux-result": "../../wux/result/index"
+  }
+}

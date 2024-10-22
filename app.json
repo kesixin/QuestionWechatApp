@@ -1,0 +1,56 @@
+
+{
+  "pages": [
+    "pages/index/index",
+    "pages/select/index",
+    "pages/answer/index",
+    "pages/history/index",
+    "pages/answerErr/index",
+    "pages/answerInfo/index",
+    "pages/result/index",
+    "pages/analysis/index",
+    "pages/wrong/index",
+    "pages/wrongAnswer/index",
+    "pages/rank/index",
+    "pages/rankList/index",
+    "pages/my/index",
+    "pages/historyList/index",
+    "pages/feedback/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2db7f5",
+    "navigationBarTitleText": "答题酷",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "selectedColor": "#2db7f5",
+    "color": "#909090",
+    "list": [
+      {
+        "text": "答题",
+        "iconPath": "images/answer.png",
+        "selectedIconPath": "images/answer-select.png",
+        "pagePath": "pages/select/index"
+      },
+      {
+        "text": "错题",
+        "iconPath": "images/wrong.png",
+        "selectedIconPath": "images/wrong-select.png",
+        "pagePath": "pages/wrong/index"
+      },
+      {
+        "text": "排名",
+        "iconPath": "images/sort.png",
+        "selectedIconPath": "images/sort-select.png",
+        "pagePath": "pages/rank/index"
+      },
+      {
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my-select.png",
+        "pagePath": "pages/my/index"
+      }
+    ]
+  }
+}

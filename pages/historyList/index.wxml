@@ -1,0 +1,12 @@
+<!--pages/historyList/index.wxml-->
+<i-spin fix size="large" wx:if="{{loading}}"></i-spin>
+<view wx:if="{{nodata}}" style='margin-top:350rpx;width:100%;text-align:center;'>
+  <image src="/images/nodata.png" style='width:180rpx;height:180rpx;'></image>
+  <view style='color:#999999;font-size:34rpx'>暂无记录</view>
+</view>
+<i-cell-group wx:else>
+  <i-cell wx:for="{{dataInfo}}" wx:key="data" title="{{item.questionMenu}}" label="{{item.createdAt}}" is-link url="/pages/history/index?id={{item.objectId}}">
+    
+  </i-cell>
+</i-cell-group>
+

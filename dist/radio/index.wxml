@@ -1,0 +1,12 @@
+<view class="i-class i-radio" catchtap="radioChange">
+    <i-cell i-class="i-radio-cell">
+        <label wx:if="{{setClass}}" class='i-class'>
+            <radio value="{{value}}" checked="{{checked}}" color="{{checked?color:''}}" disabled="{{disabled}}" class="i-radio-radio {{positionCls}}" />
+            <view class="i-radio-title">{{value}}</view>
+        </label>
+        <label wx:else>
+            <radio value="{{value}}" checked="{{checked}}" color="{{checked?color:''}}" disabled="{{disabled}}" class="i-radio-radio {{positionCls}}" />
+            <view class="i-radio-title">{{value}}</view>
+        </label>
+    </i-cell>
+</view>

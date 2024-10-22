@@ -1,0 +1,22 @@
+<!--pages/answerInfo/index.wxml-->
+<view style='padding-top:20px;'>
+  <view class='content css-shadow'>
+    <i-row>
+      <i-col span="12" i-class="score-col">选择题库</i-col>
+      <i-col span="12" i-class="score-col">{{questionMenu}}</i-col>
+    </i-row>
+    <i-row>
+      <i-col span="12" i-class="score-col">答题标准</i-col>
+      <i-col span="12" i-class="score-col">{{questionNum}}题, {{time}}分钟</i-col>
+    </i-row>
+  </view>
+
+  <view class='tips'>
+    <text>
+    本题库共{{questionNum}}小题，包含单项选择题和多项选择题，每小题1分。单项选择题只有1个正确答案，多项选择题有多个正确答案，请从每题的备选答案中选出你认为正确的答案。答题不可修改，时间到，系统自动交卷。
+  </text>
+  </view>
+  <view class='startAnswer' bindtap='start'>
+    开始答题
+  </view>
+</view>
