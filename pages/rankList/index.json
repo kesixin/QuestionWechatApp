@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "排名记录",
-  "usingComponents": {
-    "i-spin": "../../dist/spin/index"
-  }
-}

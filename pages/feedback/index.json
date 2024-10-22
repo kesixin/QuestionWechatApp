@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "反馈意见",
-  "usingComponents": {
-    "i-input": "../../dist/input/index",
-    "i-panel": "../../dist/panel/index",
-    "i-button": "../../dist/button/index"
-  }
-}
-
