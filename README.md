@@ -24,9 +24,14 @@
 
 ### 智汇考题体验链接
 
-[智汇考题PC端](http://education.mambaxin.com)
+[智汇考题PC端](https://education.zhihuidati.com)
 
-[智汇考题H5端](http://h5-education.mambaxin.com)
+[智汇考题H5端](https://mobile-education.zhihuidati.com)
+
+### 智汇考题小程序端
+
+![输入图片说明]([https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2024-07-16/6430e0c55aef0db89c11f9eb8584b337.png](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2025-01-09/28f01bf4d1e13fd2c0f1581d0c4fb573.jpg))
+
 
 ### 智慧考题宝介绍
 
