@@ -19,7 +19,7 @@
 ![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2024-03-01/df75bce97c6bda96bb5958a987b1dc90.jpg)
 
 
-### 智汇考题(支持java版和php版)
+### 智汇考题(支持java版)
 ## 小程序功能截图
 | 主界面  | 题目搜索 | 分类 |
 
@@ -33,7 +33,7 @@
 <img src = "https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2025-01-09/d579a1096ccda162b2b6fbd8d3446693.jpg" width = "30%"> 
 <img src = "https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2025-01-09/802c77e0c66dc442e6d4a30ffc6ad361.jpg" width = "30%">
 
-![输入图片说明](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2024-07-16/6430e0c55aef0db89c11f9eb8584b337.png)
+![输入图片说明](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2025-04-21/7ab7be628e160358f9325ee5db3b0bd9.png)
 
 ### 智汇考题体验链接
 
