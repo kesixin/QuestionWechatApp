@@ -155,6 +155,7 @@ Page({
     });
   },
   Countdown(time) {
+    var that = this
     //倒计时
     this.Countdown = new $wuxCountDown({
       date: +(new Date) + parseInt(time),
