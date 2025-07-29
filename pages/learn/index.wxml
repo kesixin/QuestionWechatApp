@@ -1,0 +1,64 @@
+<view class="tab-wrap">
+  <view class="tab">
+    <view bindtap="changeTab" data-textTab="答题模式">
+      <text class="{{selectInd?'blue':''}}">答题模式</text>
+      <span class="{{selectInd?'span':''}}"></span>
+    </view>
+    <view bindtap="changeTab" data-textTab="背题模式">
+      <text class="{{!selectInd?'blue':''}}">背题模式</text>
+      <span class="{{!selectInd?'span':''}}"></span>
+    </view>
+  </view>
+</view>
+<view style="height: 80rpx;"></view>
+<view style="height:20rpx;background:#f5f6f7"></view>
+<view class="address-green" wx:if="{{recmend}}">已自动回到上次答题的位置</view>
+<import src="/pages/moniq/index.wxml"></import>
+<view class="page">
+  <swiper autoplay="{{autoplay}}" class="noflex" bindchange='pageChange' current="{{current}}" circular="{{xiejie}}" duration="200" indicatorDots="{{false}}" interval="{{interval}}">
+    <swiper-item wx:for="{{showQuestionList}}" wx:for-item="downContent" wx:key="key">
+      <template is="answer" data="{{textTab:textTab,downContent:downContent,s:s}}"></template>
+    </swiper-item>
+  </swiper>
+</view>
+<view bindtap="_updown" class="footer-mark" wx:if="{{iconInd}}"></view>
+<view class="footer {{iconInd?'test-one':'test-active'}}">
+  <view class="header">
+    <view bindtap="_updown" class="h-left">
+      <view>
+        <image src="/images/q_answer_sheet_right.png"></image>
+        <text style="color:#33c500">{{rightNum}}</text>
+      </view>
+      <view>
+        <image src="/images/q_answer_sheet_wrong.png"></image>
+        <text style="color:#ff3030">{{errNum}}</text>
+      </view>
+      <view>
+        <image src="/images/q_answer_sheet_number.png"></image>
+        <text>{{indexInd*1+1}}/{{questionList.length}}</text>
+      </view>
+    </view>
+    <view bindtap="starcollect" class="h-right" wx:if="{{!iconInd}}">
+      <!-- <image src="/images/nav_test_icon_fav.png" wx:if="{{!starshow}}"></image>
+      <image src="/images/star-active.png" wx:if="{{starshow}}"></image> -->
+      <text>{{menu}}</text>
+    </view>
+    <view bindtap="del_data" class="h-right" wx:if="{{iconInd}}">
+      <text>清空记录</text>
+    </view>
+  </view>
+  <view bindtouchmove="scrolltop" class="{{iconInd?'wrap-icon-active':'wrap-icon'}}">
+    <scroll-view scrollY bindscroll="viewscroll" scrollTop="{{scrolltop}}" style="height: 100%">
+      <view class="icon-circle showzh-active">
+        <view class="circle-wrap">
+          <view bindtap="jumpToQuestion" wx:for="{{objQuestionId}}" wx:key="key" wx:for-index="idx2" wx:for-item="itemName2" data-index="{{idx2}}" >
+            <view class="now" wx:if="{{arrcheckQuestion[itemName2] == null && idx2 != indexInd}}">{{idx2+1}}</view>
+            <view class="red" wx:if="{{arrcheckQuestion[itemName2] != null && arrcheckQuestion[itemName2] == false}}">{{idx2+1}}</view>
+            <view class="green" wx:if="{{arrcheckQuestion[itemName2] != null && arrcheckQuestion[itemName2] == true}}">{{idx2+1}}</view>
+            <view class="blue" wx:if="{{arrcheckQuestion[itemName2] == null && idx2 == indexInd}}">{{idx2+1}}</view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

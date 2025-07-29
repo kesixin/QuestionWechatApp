@@ -1,0 +1,14 @@
+<template name="cell">
+    <view class="cell-wrap">
+        <view class="cell">
+            <view class="cell-left" wx:if="{{cellQuestion.left}}">
+                <image src="../../../images/jkt/icon_school.png"></image>
+                <text>{{cellQuestion.leftText}}</text>
+            </view>
+            <view class="cell-right" wx:if="{{cellQuestion.right}}">
+                <text>{{cellQuestion.rightText}}</text>
+                <image src="../../../images/jkt/right.png"></image>
+            </view>
+        </view>
+    </view>
+</template>

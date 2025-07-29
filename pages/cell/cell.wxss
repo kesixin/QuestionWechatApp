@@ -1,0 +1,45 @@
+.cell-wrap {
+    background: #fff;
+}
+
+.cell {
+    margin-left: 20rpx;
+    padding-right: 20rpx;
+    height: 86rpx;
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid rgba(230,230,230,0.6);
+}
+
+.cell-left {
+    font-size: 30rpx;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 86rpx;
+}
+
+.cell-left image {
+    width: 45rpx;
+    height: 40rpx;
+    margin-right: 23rpx;
+}
+
+.cell-right {
+    height: 86rpx;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20rpx;
+    top: 0;
+    font-size: 26rpx;
+    color: #8c8c8c;
+}
+
+.cell-right image {
+    width: 10rpx;
+    height: 18rpx;
+    margin-left: 5px;
+}

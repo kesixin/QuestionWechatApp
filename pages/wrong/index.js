@@ -5,55 +5,79 @@ Page({
    * 页面的初始数据
    */
   data: {
-    selectQuestionMenu: '请选择',
-    objectQuestionMenu: {},
-    questionMenu: [],
-    index: 0,
+    list:{}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad (options) {
-    //获取套题
-    wx.u.getQuestionMenu().then(res => {
-      var questionMenu = [];
-      if (res.result.length > 0) {
-        for (var i = 0; i < res.result.length; i++) {
-          questionMenu.push(res.result[i].name);
-        }
-      }
-      console.log(questionMenu);
-      this.setData({
-        questionMenu: questionMenu,
-        objectQuestionMenu: res.result
-      })
-    })
+  onLoad: function (options) {
+
   },
+
   /**
-   * 选择题库
+   * 生命周期函数--监听页面初次渲染完成
    */
-  changeMenu(e) {
-    console.log(e);
+  onReady: function () {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+    var menuStorageList = wx.getStorageSync('menuStorageList')
+    console.log(menuStorageList.length)
     this.setData({
-      index: e.detail.value,
-      selectQuestionMenu: this.data.questionMenu[e.detail.value]
-    })
-    var objectQuestionMenu = this.data.objectQuestionMenu
-    var menu = objectQuestionMenu[e.detail.value].objectId
-    wx.u.getError(menu).then(res=>{
-      if (res.result){
-        wx.navigateTo({
-          url: '/pages/wrongAnswer/index?menu='+menu,
-        })
-      }else{
-        wx.showToast({
-          title: '无错题记录',
-          duration: 1500,
-          image: '/images/warning.png'
-        })
-        return;
-      }
+      'menuStorageList':menuStorageList
     })
   },
+
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide: function () {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload: function () {
+
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+
+  }, 
+  goLearn (){
+    wx.navigateTo({
+      url: '../category/index?action=learn',
+    })
+  },
+  goError (e){
+    console.log(e)
+    var cateid = e.currentTarget.dataset.cateid
+    var menu = e.currentTarget.dataset.menu
+    wx.navigateTo({
+      url: '../errorStar/index?cateid='+cateid+'&menu='+menu,
+    })
+  }
 })

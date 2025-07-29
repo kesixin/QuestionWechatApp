@@ -1,0 +1,93 @@
+<template name="answer">
+  <view class="all-wrap" wx:if="{{!iconInd}}">
+    <scroll-view scrollY style="height: 100%;">
+      <view bindtouchend="bindtouchend" bindtouchmove="bindtouchmove" bindtouchstart="touchstart" class="answer-wrap" wx:if="{{textTab!='背题模式' && downContent.type!='2'}}">
+        <view class="answer-title">
+          <image src="../../images/jkt/danxuan.png"></image>
+          <!-- <image src="../../../images/jkt/panduan.png" wx:if="{{downContent.type_name=='判断'}}"></image> -->
+          <view style="width:100%">
+            <text>{{downContent.title}}</text>
+          </view>
+        </view>
+        <view class="answer-ziyuan">
+          <image mode="aspectFit" src="{{downContent.picUrl}}" wx:if="{{downContent.picUrl}}"></image>
+        </view>
+        <view class="answer-select">
+          <view wx:if="{{downContent.chosenum == undefined}}" bindtap="selectAnswer" class="direction" wx:for="{{downContent.choseList}}" wx:key="chose" data-index="{{indexInd}}" data-answer="{{downContent.answer}}" data-chosenum="{{s[index]}}" >
+            <view class="answer-left">
+              <text class="option">{{s[index]}}</text>
+            </view>
+            <view class="answer-right">
+              <text class="text">{{item.item}}</text>
+            </view>
+          </view>
+          
+          <view wx:if="{{downContent.chosenum != undefined}}" class="direction" wx:for="{{downContent.choseList}}" wx:key="chose">
+            <view class="answer-left">
+              <text class="option" wx:if="{{downContent.chosenum!=s[index]&&downContent.answer!=s[index]}}">{{s[index]}}</text>
+              <image src="/images/jkt/error.png" wx:if="{{downContent.chosenum!=downContent.answer&&downContent.chosenum==s[index]}}"></image>
+              <image src="/images/jkt/success.png" wx:if="{{downContent.answer==s[index]}}"></image>
+            </view>
+            <view class="answer-right">
+              <text class="green-active" wx:if="{{downContent.answer==s[index]&&downContent.chosenum}}">{{item.item}}</text>
+              <text class="red-active" wx:if="{{downContent.chosenum==s[index]&&downContent.answer!=s[index]}}">{{item.item}}</text>
+              <text class="text" wx:if="{{downContent.chosenum!=s[index]&&!( downContent.answer==s[index]&&downContent.chosenum )}}">{{item.item}}</text>
+            </view>
+          </view>
+          <view wx:if="{{downContent.chosenum != undefined}}" class="explanation">
+            <view class="explanation-title">
+              <view class="explanation-left">帮助</view>
+            </view>
+            <view class="explanation-text" wx:if="{{downContent.help}}">{{downContent.help}}</view>
+            <view class="explanation-text" wx:else>暂无</view>
+            <view class="answer-ziyuan">
+              <image class='helpPic' mode="aspectFit" src="{{downContent.helpPicUrl}}" wx:if="{{downContent.helpPicUrl}}"></image>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view bindtouchend="bindtouchend" bindtouchmove="bindtouchmove" bindtouchstart="touchstart" class="answer-wrap" wx:if="{{textTab!='背题模式' && downContent.type=='2'}}">
+        <view class="answer-title">
+          <image src="../../images/jkt/duoxuan.png" wx:if="{{downContent.type=='2'}}"></image>
+          <view style="width:100%">
+            <text>{{downContent.title}}</text>
+          </view>
+        </view>
+        <view class="answer-ziyuan">
+          <image mode="aspectFit" src="{{downContent.picUrl}}" wx:if="{{downContent.picUrl}}"></image>
+        </view>
+        <view class="answer-select">
+          <view bindtap='selectAnswerMore' class='direction' wx:for="{{downContent.choseList}}" wx:key="chose" data-index="{{num}}" data-answer="{{downContent.answer}}" data-chosenum="{{s[index]}}">
+            <view class="answer-left">
+              <text class="{{downContent.subup == undefined && downContent.moreArr[s[index]] ? 'option-active':'option' }}" wx:if="{{downContent.subup == undefined}}">{{s[index]}}</text>
+              <text class="{{downContent.subup == undefined && downContent.moreArr[s[index]] ? 'option-active':'option'}}" wx:if="{{downContent.subup =='1'&& downContent.moreArr[s[index]]==false &&downContent.answerArr[0]!=[s[index]]&&downContent.answerArr[1]!=[s[index]]&&downContent.answerArr[2]!=[s[index]]&&downContent.answerArr[3]!=[s[index]]}}">{{s[index]}}</text>
+              <text class="option-green" wx:if="{{downContent.moreArr[s[index]]==false&&downContent.subup=='1'&&(downContent.answerArr[0]==s[index]||downContent.answerArr[1]==s[index]||downContent.answerArr[2]==s[index]||downContent.answerArr[3]==s[index])}}">{{s[index]}}</text>
+              <image src="/images/jkt/error.png" wx:if="{{downContent.moreArr[s[index]]==true&&downContent.subup=='1'&&downContent.answerArr[0]!=s[index]&&downContent.answerArr[1]!=s[index]&&downContent.answerArr[2]!=s[index]&&downContent.answerArr[3]!=s[index]}}"></image>
+              <image src="/images/jkt/success.png" wx:if="{{downContent.moreArr[s[index]]==true&&downContent.subup=='1'&&(downContent.answerArr[0]==s[index]||downContent.answerArr[1]==s[index]||downContent.answerArr[2]==s[index]||downContent.answerArr[3]==s[index])}}"></image>
+            </view>
+            <view class="answer-right">
+              <text class="{{downContent.moreArr[s[index]]&&downContent.subup == undefined ?'text-active':'text'}}" wx:if="{{downContent.subup == undefined}}">{{item.item}}</text>
+              <text class="text" wx:if="{{downContent.subup=='1'&&downContent.moreArr[s[index]]==false&&downContent.answerArr[0]!=s[index]&&downContent.answerArr[1]!=s[index]&&downContent.answerArr[2]!=s[index]&&downContent.answerArr[3]!=s[index]}}">{{item.item}}</text>
+              <text class="red-active" wx:if="{{downContent.subup=='1'&&downContent.moreArr[s[index]]==true&&downContent.answerArr[0]!=s[index]&&downContent.answerArr[1]!=s[index]&&downContent.answerArr[2]!=s[index]&&downContent.answerArr[3]!=s[index]}}">{{item.item}}</text>
+              <text class="green-active" wx:if="{{downContent.subup=='1'&&(downContent.answerArr[0]==s[index]||downContent.answerArr[1]==s[index]||downContent.answerArr[2]==s[index]||downContent.answerArr[3]==s[index])}}">{{item.item}}</text>
+            </view>
+          </view>
+        </view>
+        <view style="height:40px;" wx:if="{{downContent['order']['subup']=='1'}}"></view>
+        <view style="padding-bottom:70px;" wx:if="{{downContent.subup == undefined&&textTab!='背题模式'&&downContent.type=='2'}}">
+          <view bindtap="moreSelectSub" class="sunup" data-answer="{{downContent.answer}}" data-id="{{downContent.question_id}}">提交</view>
+        </view>
+        <view class="explanation" wx:if="{{downContent.subup == 1}}">
+          <view class="explanation-title">
+            <view class="explanation-left">帮助</view>
+          </view>
+          <view class="explanation-text" wx:if="{{downContent.help}}">{{downContent.help}}</view>
+          <view class="explanation-text" wx:else>暂无</view>
+          <view class="answer-ziyuan">
+              <image class='helpPic' mode="aspectFit" src="{{downContent.helpPicUrl}}" wx:if="{{downContent.helpPicUrl}}"></image>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</template>

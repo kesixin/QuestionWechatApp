@@ -1,0 +1,224 @@
+/* .subject1 {
+    width: 100%;
+    height: 100%;
+    background: #f5f6f7;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+    margin-bottom: 12rpx;
+}
+
+.header image {
+    width: 100%;
+}
+
+.header-wrap {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-wrap view {
+    width: 30%;
+    height: 100%;
+}
+
+.question-wrap {
+    padding-top: 36rpx;
+    padding-bottom: 36rpx;
+    background: #fff;
+    margin-bottom: 20rpx;
+}
+
+.question {
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 243rpx;
+    display: flex;
+    justify-content: space-between;
+}
+
+.question image {
+    width: 105rpx;
+    height: 83rpx;
+}
+
+.question .left,.question .right {
+    height: 100%;
+    width: 105rpx;
+    display: flex;
+    flex-direction: column;
+}
+
+.question .left view,.question .right view {
+    flex: 1;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-wrap {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.progress-bg {
+    width: 220rpx;
+    height: 220rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.progress-wrap {
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+    background: #52c000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.progress-wrap .progress-title {
+    font-size: 33rpx;
+}
+
+.progress-wrap text {
+    font-size: 20rpx;
+    color: #dcf2cc;
+    line-height: 40rpx;
+}
+
+.progress-bg image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.progress-wrap-blue {
+    background: #40abfa;
+}
+
+.God-wrap {
+    background: #fff;
+    margin-bottom: 20rpx;
+}
+
+.God-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 33rpx;
+    padding-bottom: 33rpx;
+}
+
+.God-title image {
+    width: 18px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.God-list {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.God-dl {
+    width: 30%;
+}
+
+.God-dt {
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+}
+
+.God-dt image {
+    width: 100%;
+    height: 100%;
+}
+
+.God-dd {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 12.5px;
+    padding-bottom: 18px;
+    line-height: 15px;
+}
+
+.dd-title {
+    font-size: 12px;
+}
+
+.dd-content {
+    font-size: 10px;
+    color: #9f9f9f;
+}
+
+button {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+button::after {
+    border: none;
+}
+
+.tab-wrap {
+    padding-left: 120rpx;
+    padding-right: 120rpx;
+    border-bottom: 1px solid #d9d9d9;
+    background: #fff;
+}
+
+.tab {
+    display: flex;
+    color: #656565;
+    font-size: 14px;
+    margin: 0 auto;
+    height: 80rpx;
+    line-height: 80rpx;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.tab text {
+    height: 76rpx;
+    display: block;
+}
+
+.tab .span {
+    display: block;
+    border-top: 4rpx solid #0093f0;
+    width: 27rpx;
+    margin: 0 auto;
+}
+
+.blue {
+    color: #0093f0;
+}
+
+.explanation {
+    border-top: 20rpx solid #f5f6f7;
+    padding-bottom: 30%;
+} */

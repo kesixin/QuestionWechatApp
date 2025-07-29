@@ -5,65 +5,57 @@ Page({
    * 页面的初始数据
    */
   data: {
-    value1:'',
-    value2:''
-  },
-  onLoad (e) {
 
   },
-  handleChange(field, value) {
-    console.log(value);
-    this.setData({
-      [field]: value
-    })
+
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+
   },
-  handleChange1({ detail }) {
-    this.handleChange('value1', detail.detail.value)
+
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady: function () {
+
   },
-  handleChange2({ detail }) {
-    this.handleChange('value2', detail.detail.value)
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+
   },
-  formSubmit(e) {
-    var phoneNum = this.data.value1;
-    var content = this.data.value2;
-    var reg = /^1[3|4|5|7|8][0-9]\d{8}$/;
-    if (reg.test(phoneNum) === false) {
-      wx.showToast({
-        title: '号码不合法',
-        icon: 'loading',
-        duration: 1500
-      });
-      return false;
+
+  bindsubmit: function (e) {
+    var params = {
+      'contact':e.detail.value.contact,
+      'content':e.detail.value.content
     }
-    if(content == ''){
+    if(params.contact == "" || params.content == ""){
       wx.showToast({
-        title: '内容不为空',
-        icon: 'loading',
-        duration: 1500
-      });
-      return false;
+        title: "请填写完整",
+        icon:'loading',
+        duration: 2e3
+      })
+      return
     }
-    wx.u.addFeedBack(phoneNum,content).then(res=>{
-      if (res.result == 'success'){
-        wx.showToast({
-          title: '提交成功',
-          success: function () {
-            setTimeout(function () {
-              //要延时执行的代码
-              wx.switchTab({
-                url: '../my/index'
-              })
-            }, 1500)
+    wx.u.saveFeedback(params).then(res=>{
+      if(res.result == 'success'){
+        wx.showModal({
+          title: "反馈成功",
+          content: "已经收到您的反馈，谢谢您的关注！",
+          showCancel: !1,
+          confirmText: "我知道啦",
+          confirmColor: "#1bd0ad",
+          success: function (e) {
+            wx.navigateBack();
           }
         });
-        
       }else{
-        wx.showToast({
-          title: '提交失败',
-          icon: 'loading',
-          duration: 1500
-        });
-        return false;
+        console.log('提交失败')
       }
     })
   }

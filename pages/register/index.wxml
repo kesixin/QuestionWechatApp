@@ -1,0 +1,26 @@
+<!--pages/register/index.wxml-->
+<view class="page">
+  <view class='register'>
+    <image class='image' src='../../images/register.png'></image>
+  </view> 
+  <form bindsubmit="register" report-submit='true'>
+      <view class="inputFrame">
+        <view class="must"> * </view>
+        <input placeholder="单位" name="company" placeholder-style='font-size:35rpx;'/>
+      </view>
+
+      <view class="inputFrame">
+        <view class="must"> * </view>
+        <input placeholder="部门" name="department" placeholder-style='font-size:35rpx;'/>
+      </view>
+
+      
+      <view class="inputFrame">
+        <view class="must"> * </view>
+        <input placeholder="姓名" name="realname" placeholder-style='font-size:35rpx;'/>
+      </view>
+      <button class='ensure'  formType="submit" >确定</button>
+
+      <view class='tip'>一经审核通过不可修改</view>
+    </form>
+</view>

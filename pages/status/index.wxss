@@ -1,0 +1,16 @@
+/* pages/status/index.wxss */
+.image{
+  width: 220rpx;
+  height: 220rpx;
+}
+.button {
+    background: #1bd0ad;
+    color: #fff;
+    width: 400rpx;
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 24px auto;
+    padding: 8rpx;
+}

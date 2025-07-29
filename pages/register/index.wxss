@@ -1,0 +1,55 @@
+.register{
+  text-align: center;
+  justify-content:center;
+  display:flex;
+  align-items:center;
+  margin:40rpx 0rpx 70rpx 0rpx;
+}
+.image{
+  width: 220rpx;
+  height: 220rpx;
+}
+
+.text{
+  font-size: 35rpx;
+  width: 480rpx;
+  margin: 0 auto;
+  margin-bottom: 25rpx;
+}
+
+.inputFrame{
+  width: 440rpx;
+  height: 70rpx;
+  background-color: #eef7f6;
+  justify-content:center;
+  display:flex;
+  align-items:center;
+  margin: 0 auto;
+  margin-bottom: 30rpx;
+}
+.must{
+  width:25rpx;
+  color:red;
+  display:flex;
+  font-size: 30rpx;
+}
+
+.ensure{
+  font-size: 35rpx;
+  color: #ffffff;
+  text-align: center;
+  justify-content:center;
+  display:flex;
+  align-items:center;
+  width: 360rpx;
+  height: 80rpx;
+  background-color: #1bd0ad;
+  margin: 0 auto;
+  margin-top: 50rpx;
+}
+
+.tip{
+    text-align: center;
+    margin-top: 25rpx;
+    font-size: 28rpx;
+}

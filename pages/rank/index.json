@@ -1,6 +1,6 @@
 {
-  "navigationBarTitleText": "排名",
+  "navigationBarTitleText": "排行榜",
   "usingComponents": {
-    "i-spin": "../../dist/spin/index"
+    "i-load-more": "../../dist/load-more/index"
   }
 }
