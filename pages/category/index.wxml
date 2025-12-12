@@ -1,4 +1,4 @@
-<!--pages/category/index.wxml-->
+
 <view>
   <view bindtap="goquestion" class="special-title" wx:for="{{cateList}}" wx:key="category" data-cateid="{{item.objectId}}" data-menu="{{item.name}}">
     <view style="display:block;">
