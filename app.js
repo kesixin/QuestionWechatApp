@@ -2,7 +2,7 @@
 const Bmob = require('utils/Bmob-1.6.7.min.js');
 const utils = require('utils/util.js');
 //初始化
-Bmob.initialize("d15d7803db032f77415866a948af9665","c1e1d4778be06fa93fc06f8240464338");
+Bmob.initialize("","");
 wx.u = utils
 App({
   onLaunch: function () {
