@@ -4,6 +4,7 @@ const utils = require('utils/util.js');
 //初始化
 Bmob.initialize("","");
 wx.u = utils
+
 App({
   onLaunch: function () {
     Bmob.User.auth().then(res=>{
