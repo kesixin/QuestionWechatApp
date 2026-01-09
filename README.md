@@ -16,6 +16,9 @@
 
 ![QQ](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2023-01-16/fd7054c9016fcf2dbf3144881bdfec88.jpeg)
 
+### 微信公众号
+![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2024-03-01/df75bce97c6bda96bb5958a987b1dc90.jpg)
+
 
 
 ### 智汇考题(支持java版)
@@ -291,6 +294,7 @@
 
 ### 小程序二维码
 ![](https://www.bmob.cn/uploads/attached/app/logo/20181218/3843aba5-1b47-acd0-bffa-7aebbe4d4d2a.jpg)
+
 
 
 
