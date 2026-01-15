@@ -1,6 +1,7 @@
 //app.js
 const Bmob = require('utils/Bmob-1.6.7.min.js');
 const utils = require('utils/util.js');
+
 //初始化
 Bmob.initialize("","");
 wx.u = utils
