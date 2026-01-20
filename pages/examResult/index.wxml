@@ -1,4 +1,5 @@
 <!--pages/examResult/index.wxml-->
+
 <view class='page'>
   <view class="topBG">
     <view class="todayData">
