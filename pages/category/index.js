@@ -1,6 +1,5 @@
 // pages/category/index.js
 Page({
-
   data: {
     cateList:{},
     action:''
