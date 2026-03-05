@@ -5,7 +5,6 @@ Page({
 
   },
 
-
   onLoad: function (options) {
 
   },
