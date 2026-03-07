@@ -14,6 +14,7 @@ Page({
         canIUseGetUserProfile: true
       })
     }
+    
     wx.u.getSetting('useLearn').then(res => {
       let useLearn = true
       if (res.result.value == "false")
