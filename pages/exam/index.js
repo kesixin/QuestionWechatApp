@@ -55,6 +55,7 @@ Page({
     wx.showLoading({
       title: '正在加载',
     })
+    
     var storageData = wx.getStorageSync('exam' + this.data.cateid)
     var showQuestionList = []
     if (storageData == "") {
