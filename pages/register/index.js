@@ -18,6 +18,7 @@ Page({
   },
 
   register:function(e){
+    
     let params = e.detail.value
     if (params.company == '' || params.department == '' || params.realname == '') {
       wx.showToast({
