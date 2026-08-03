@@ -1,36 +1,28 @@
 {
   "pages": [
-    "pages/start/start",
-    "pages/category/category",
+    "pages/start/index",
     "pages/index/index",
-    "pages/personal/personal",
-    "pages/login/login"
+    "pages/my/index",
+    "pages/register/index",
+    "pages/status/index",
+    "pages/learn/index",
+    "pages/moniq/index",
+    "pages/category/index",
+    "pages/rank/index",
+    "pages/wrong/index",
+    "pages/exam/index",
+    "pages/feedback/index",
+    "pages/record/index",
+    "pages/dati/index",
+    "pages/examResult/index",
+    "pages/errorStar/index",
+    "pages/error/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#1bd0ad",
-    "navigationBarTitleText": "智汇答题Plus",
+    "navigationBarTitleText": "智汇答题",
     "navigationBarTextStyle": "white"
   },
-  "tabBar": {
-    "color": "#bfbfbf",
-    "selectedColor": "#1bd0ad",
-    "backgroundColor": "#FFFFFF",
-    "list": [
-      {
-        "iconPath": "/images/card.png",
-        "selectedIconPath": "/images/card-selected.png",
-        "text": "首页",
-        "pagePath": "pages/index/index"
-      },
-      {
-        "iconPath": "/images/my.png",
-        "selectedIconPath": "/images/my-selected.png",
-        "text": "我的",
-        "pagePath": "pages/personal/personal"
-      }
-    ]
-  },
-  "sitemapLocation": "sitemap.json",
-  "__usePrivacyCheck__": true
+  "sitemapLocation": "sitemap.json"
 }
