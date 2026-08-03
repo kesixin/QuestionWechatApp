@@ -1,0 +1,59 @@
+<!--pages/errorStar/index.wxml-->
+<view class="tab-wrap">
+  <view class="tab">
+    <view bindtap="changeTab" data-textTab="答题模式">
+      <text class="{{selectInd?'blue':''}}">答题模式</text>
+      <span class="{{selectInd?'span':''}}"></span>
+    </view>
+    <view bindtap="changeTab" data-textTab="背题模式">
+      <text class="{{!selectInd?'blue':''}}">背题模式</text>
+      <span class="{{!selectInd?'span':''}}"></span>
+    </view>
+  </view>
+</view>
+<import src="/pages/error/index.wxml"></import>
+
+<view class="page">
+  <swiper autoplay="{{autoplay}}" class="noflex" bindchange='pageChange' current="{{current}}" circular="{{xiejie}}" duration="500" indicatorDots="{{false}}" interval="{{interval}}">
+    <swiper-item wx:for="{{questionList}}" wx:for-item="downContent" wx:key="key">
+      <template is="answer" data="{{textTab:textTab,downContent:downContent,s:s,num:index,indexInd:indexInd}}"></template>
+    </swiper-item>
+  </swiper>
+</view>
+<view bindtap="_updown" class="footer-mark" wx:if="{{iconInd}}"></view>
+<view class="footer {{iconInd?'test-one':'test-active'}}">
+  <view class="header">
+    <view bindtap="_updown" class="h-left">
+      <view>
+        <image src="/images/q_answer_sheet_right.png"></image>
+        <text style="color:#33c500">{{rightNum}}</text>
+      </view>
+      <view>
+        <image src="/images/q_answer_sheet_wrong.png"></image>
+        <text style="color:#ff3030">{{errNum}}</text>
+      </view>
+      <view>
+        <image src="/images/q_answer_sheet_number.png"></image>
+        <text>{{indexInd*1+1}}/{{questionList.length}}</text>
+      </view>
+    </view>
+    <view bindtap="delCollect" class="h-right">
+      <image src="/images/toolbar_icon_deletd_normal_protect@2x.png"></image>
+      <text>移除</text>
+    </view>
+  </view>
+  <view bindtouchmove="scrolltop" class="{{iconInd?'wrap-icon-active':'wrap-icon'}}">
+        <scroll-view scrollY bindscroll="viewscroll" scrollTop="{{scrolltop}}" style="height: 100%">
+            <view class="icon-circle showzh-active" >
+                <view class="circle-wrap">
+                    <view bindtap="jumpToQuestion" wx:for="{{questionList}}" wx:key="key" data-index="{{index}}">
+                        <view class="now" wx:if="{{questionList[index].chosenum == undefined && index != indexInd}}">{{index+1}}</view>
+                        <view class="red" wx:if="{{questionList[index].chosenum != undefined && questionList[index].judge == false}}">{{index+1}}</view>
+                        <view class="green" wx:if="{{questionList[index].chosenum != undefined && questionList[index].judge == true}}">{{index+1}}</view>
+                        <view class="blue" wx:if="{{questionList[index].chosenum == undefined && index == indexInd}}">{{index+1}}</view>
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

@@ -1,0 +1,139 @@
+/* pages/rank/index.wxss */
+.no-record{
+  text-align:center;
+  margin-top:20px;
+}
+.no-record image{
+  width:250rpx;
+  height:250rpx;
+}
+.errorstat {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: -30%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.errorstat text {
+    color: #999999;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.button {
+    background: #1bd0ad;
+    color: #fff;
+    width: 400rpx;
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 24px auto;
+    padding: 8rpx;
+}
+page{
+  background: #1bd0ad;
+}
+.ls{
+  width: 100%;
+  /* position: absolute; */
+  /* top: 340rpx; */
+  /* bottom: 0; */
+  font-size: 28rpx;
+  color: #333;
+  height: 100%;
+}
+
+.ls-item{
+  margin: 12rpx 20rpx;
+  height: 125rpx;
+  padding: 16rpx 0;
+  background:#fff;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 2rpx solid #f3f4f5;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+}
+
+.ls-item>view{
+  height: 92rpx;
+  float: left;
+}
+.ls-item .ls-l{
+  width: 100rpx;
+  height: 92rpx;
+  line-height: 92rpx;
+  text-align: center;
+  font-size: 40rpx;
+  margin-left: 6rpx;
+}
+.ls-item .ls-l .img_{
+  width: 60rpx;
+  height: 79rpx;
+  line-height: 50rpx;
+  margin-left:20rpx;
+  margin-top:12rpx;
+}
+.ls-item .ls-l .img_ image{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* .ls-item .ls-c{
+   width:480rpx; 
+} */
+.ls-item .ls-c>view{
+  float: left;
+}
+.ls-item .ls-c-img{
+  width: 92rpx;
+  height:92rpx;
+  position: relative;
+}
+.ls-item .ls-c-img image{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.ls-item .ls-c .ls-c-txt{
+  width: 486rpx;
+  padding-top: 4rpx;
+  font-size: 28rpx;
+  margin-left: 24rpx;
+}
+.ls-item .ls-c .ls-c-fr{
+  text-align: right;
+  margin-right: 20rpx;
+  line-height: 90rpx;
+}
+.ls-item .ls-c .ls-c-t{
+  max-width: 330rpx;
+  overflow: hidden;
+  line-height: 90rpx;
+  /* font-size: 32rpx;  */
+  text-overflow: ellipsis;
+  white-space:nowrap;
+  font-weight: 700;
+  width: 80%
+}
+.ls-item .ls-c .ls-c-b{
+  line-height: 90rpx;
+}
+.ls-item .ls-c .ls-c-fr .ls-c-b{
+  margin-top: 0; 
+  color: #333;
+}
+.ls-c-b text{
+  color: #e33f37;
+  /* font-weight: 700 */
+}

@@ -1,0 +1,31 @@
+<!--pages/record/index.wxml-->
+<view wx:if="{{nodata}}" style='position:fixed;left:0;top:0;right:0;bottom:0;background:#fff;'>
+  <view class='no-record'>
+    <image src='/images/no-record.png'></image>
+  </view>
+  <view bindtap="goBack" class="errorstat">
+    <view class="button">返回</view>
+  </view>
+</view>
+
+<view wx:else>
+  <view class="wraplist">
+    <view class="top">
+      <text></text>
+      <view>历史成绩</view>
+    </view>
+    <view class="title">
+      <text>分数</text>
+      <text>用时</text>
+      <text>日期</text>
+      <text>分类</text>
+    </view>
+    <view class="list" wx:for="{{historyList}}" wx:key="key">
+      <text class="colororange">{{item.score}}<text class="span">分</text>
+      </text>
+      <text>{{item.useTime}}</text>
+      <text>{{item.time}}</text>
+      <text class="colororange">{{item.menuId.name}}</text>
+    </view>
+  </view>
+</view>

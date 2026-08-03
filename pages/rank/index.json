@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "排行榜",
+  "usingComponents": {
+    "i-load-more": "../../dist/load-more/index"
+  }
+}

@@ -1,0 +1,115 @@
+/* pages/examResult/index.wxss */
+.topImage {
+    width: 100%;
+    height: 250rpx;
+    position: absolute;
+
+}
+
+.topBG {
+    
+    height: 250rpx;
+    position: relative;
+    width: 100%;
+    background: url('https://upload-images.jianshu.io/upload_images/6673460-bc716a04d5f6091c.png') no-repeat;
+    background-size: 100% 100%;
+    background-color: #1bd0ad;
+    padding-bottom: 20rpx;
+}
+
+.todayData {
+  z-index: 99;
+    width: 100%;
+    color: #e1fafb;
+}
+
+.todayDataLeft,.todayDataRight {
+    text-align: center;
+    width: 50%;
+}
+
+.todayDataLeftTop,.todayDataRightTop {
+    display: flex;
+    font-size: 30rpx;
+    justify-content: center;
+}
+
+.todayDataLeftTopIcon {
+    height: 30rpx;
+    width: 35rpx;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10rpx;
+}
+
+.todayDataRightTopIcon {
+    width: 32rpx;
+    height: 32rpx;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10rpx;
+}
+
+.todayDataTop {
+    display: flex;
+}
+
+.todayDataLeftDown,.todayDataRightDown {
+    font-size: 56rpx;
+    margin-top: 30rpx;
+    color: #ffffff;
+}
+
+.rankMore {
+    display: flex;
+    margin-top: 30rpx;
+}
+
+.rank,.more {
+    text-align: center;
+    font-size: 35rpx;
+    color: #e1fafb;
+    background-color: #1bd0ad;
+    width: 230rpx;
+    padding: 13rpx 0rpx 13rpx 0rpx;
+    border-radius: 50rpx;
+    margin: 0 auto;
+    margin-top: 30rpx;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+.examBack {
+    padding: 20rpx 15rpx;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.examBack .left {
+    display: flex;
+}
+
+.examBack .left>view {
+    margin-left: 20rpx;
+}
+
+.examBack .left image {
+    width: 40rpx;
+    height: 40rpx;
+}
+
+.examBack .left .title {
+    font-size: 30rpx;
+}
+
+.examBack .left .title-text {
+    font-size: 26rpx;
+    color: #7f7f7f;
+    margin-top: 20rpx;
+}
+
+.examBack .right image {
+    width: 10px;
+    height: 18px;
+}

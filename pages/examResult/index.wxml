@@ -1,0 +1,56 @@
+<!--pages/examResult/index.wxml-->
+<view class='page'>
+  <view class="topBG">
+    <view class="todayData">
+      <view class="todayDataTop">
+        <view class="todayDataLeft">
+          <view class="todayDataLeftTop">
+            <view class="todayDataLeftTopText">答题得分</view>
+            <image class="todayDataLeftTopIcon" src="/images/todaySubmit2.png"></image>
+          </view>
+          <view class="todayDataLeftDown">{{rightNum}}
+            <text style="font-size:35rpx;">分</text>
+          </view>
+        </view>
+        <view class="todayDataRight">
+          <view class="todayDataRightTop">
+            <view class="todayDataRightTopText">答题用时</view>
+            <image class="todayDataRightTopIcon" src="/images/useTime.png"></image>
+          </view>
+          <view class="todayDataRightDown">
+            <text style="font-size:35rpx;">{{ytimesf}}分{{ytimesm}}秒</text>
+          </view>
+        </view>
+      </view>
+      <view class="rankMore">
+        <view bindtap="clickRank" class="rank">答题排行
+        </view>
+      </view>
+    </view>
+  </view>
+  <view style="height:20rpx;background:#f5f6f7"></view>
+  <view bindtap="examBack" class="examBack">
+        <view class="left">
+            <image src="/images/exam-icon.png"></image>
+            <view>
+                <view class="title">查看错题</view>
+                <view class="title-text">做错<text style="color:#fa3638">{{errNum}}</text>题，未做<text style="color:#46c223">{{unAnswerNum}}</text>题目</view>
+            </view>
+        </view>
+        <view class="right">
+            <image src="/images/jkt/right.png"></image>
+        </view>
+    </view>
+    <view bindtap="exam_repeat" class="examBack">
+        <view class="left">
+            <image src="/images/white-icon.png"></image>
+            <view>
+                <view class="title">重新考试</view>
+                <view class="title-text">状态不错，再考一次呗</view>
+            </view>
+        </view>
+        <view class="right">
+            <image src="/images/jkt/right.png"></image>
+        </view>
+    </view>
+</view>

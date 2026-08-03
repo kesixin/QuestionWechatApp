@@ -1,0 +1,69 @@
+<!--pages/exam/index.wxml-->
+<view class="markgo" wx:if="{{startTimeind}}">
+    <view class="markgo-wrap">
+        <view class="markgo-wrap-title">
+   时间到了
+   </view>
+        <view class="markgo-wrap-content">
+   交卷查看你的成绩吧
+   </view>
+        <view bindtap="gotrue" class="marktrue">确定</view>
+    </view>
+</view>
+<view bindtap="examStop" class="tab-wrap" wx:if="{{timeshow}}">
+    <view class="tab">
+        <image src="/images/nav_icon_time@2x.png"></image>
+        <text> 倒计时: {{times}}</text>
+    </view>
+</view>
+<view style="height:85rpx;background:#f5f6f7" wx:if="{{timeshow}}"></view>
+<import src="/pages/dati/index.wxml"></import>
+<view class="page">
+  <swiper autoplay="{{autoplay}}" class="noflex" bindchange='pageChange' current="{{current}}" circular="{{xiejie}}" duration="500" indicatorDots="{{false}}" interval="{{interval}}">
+    <swiper-item wx:for="{{showQuestionList}}" wx:for-item="downContent" wx:key="key">
+      <template is="answer" data="{{downContent:downContent,s:s,indexInd:indexInd}}"></template>
+    </swiper-item>
+  </swiper>
+</view>
+<view bindtap="_updown" class="footer-mark" wx:if="{{iconInd}}"></view>
+<view class="footer {{iconInd?'test-one':'test-active'}}">
+  <view class="header">
+    <view bindtap="_updown" class="h-left">
+      <view>
+        <image src="/images/q_answer_sheet_right.png"></image>
+        <text style="color:#33c500">{{rightNum}}</text>
+      </view>
+      <view>
+        <image src="/images/q_answer_sheet_wrong.png"></image>
+        <text style="color:#ff3030">{{errNum}}</text>
+      </view>
+      <view>
+        <image src="/images/q_answer_sheet_number.png"></image>
+        <text>{{indexInd*1+1}}/{{questionList.length}}</text>
+      </view>
+    </view>
+    <view bindtap="newUp_exam" class="h-right">
+      <!-- <image src="/images/nav_test_icon_fav.png" wx:if="{{!starshow}}"></image>
+      <image src="/images/star-active.png" wx:if="{{starshow}}"></image> -->
+      <image src="/images/jkt/jexam.png"></image>
+      <text style="color: #1bd0ad;">交卷</text>
+    </view>
+    <!-- <view bindtap="del_data" class="h-right" wx:if="{{iconInd}}">
+      <text>清空记录</text>
+    </view> -->
+  </view>
+  <view bindtouchmove="scrolltop" class="{{iconInd?'wrap-icon-active':'wrap-icon'}}">
+        <scroll-view scrollY bindscroll="viewscroll" scrollTop="{{scrolltop}}" style="height: 100%">
+            <view class="icon-circle showzh-active" >
+                <view class="circle-wrap">
+                    <view bindtap="jumpToQuestion" wx:for="{{questionList}}" wx:key="key" data-index="{{index}}">
+                        <view class="now" wx:if="{{questionList[index].chosenum == undefined && index != indexInd}}">{{index+1}}</view>
+                        <view class="red" wx:if="{{questionList[index].chosenum != undefined && questionList[index].judge == false}}">{{index+1}}</view>
+                        <view class="green" wx:if="{{questionList[index].chosenum != undefined && questionList[index].judge == true}}">{{index+1}}</view>
+                        <view class="blue" wx:if="{{questionList[index].chosenum == undefined && index == indexInd}}">{{index+1}}</view>
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

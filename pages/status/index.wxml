@@ -1,0 +1,7 @@
+<view class="page">
+  <view style='text-align: center;justify-content:center;align-items:center;margin:40rpx 0rpx 70rpx 0rpx;'>
+    <image class='image' src='../../images/check.png'></image>
+    <view style='margin-top:10px;font-size:28rpx;'>个人信息已提交，请等待管理员审核</view>
+    <view class="button" bindtap='goback'>返回首页</view>
+  </view>
+</view>

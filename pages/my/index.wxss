@@ -1,0 +1,132 @@
+/* pages/my/index.wxss */
+.topImage {
+    width: 100%;
+    height: 250rpx;
+    position: absolute;
+    z-index: 0;
+}
+
+.topBG {
+    background-color: #1bd0ad;
+    height: 250rpx;
+    position: relative;
+    width: 100%;
+}
+
+.head {
+    display: flex;
+    width: 130rpx;
+    height: 130rpx;
+    border-radius: 50%;
+    border: 6rpx #ffffff solid;
+    margin: 0 auto;
+    z-index: 3;
+    position: relative;
+}
+
+.name {
+    font-size: 32rpx;
+    text-align: center;
+    margin-top: 30rpx;
+    z-index: 3;
+    color: #ffffff;
+    position: relative;
+}
+
+.city {
+    color: #8d8d8d;
+    font-size: 30rpx;
+    margin-top: 15rpx;
+}
+
+.cell {
+    margin-left: 50rpx;
+    height: 100rpx;
+    border-bottom: 1px solid rgba(230,230,230,0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cell-left {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.cell-icon {
+    width: 52rpx;
+    height: 52rpx;
+}
+
+.cell-icon image {
+    width: 52rpx;
+    height: 52rpx;
+}
+
+.cell-text {
+    width: 390rpx;
+    font-size: 33rpx;
+    color: #414141;
+    margin-left: 15rpx;
+}
+
+.cell-text-no {
+    width: 550rpx;
+}
+
+.cell-text button,.cell-text button::after {
+    background: none!important;
+    border: none!important;
+    text-align: left!important;
+    padding: 0!important;
+    font-size: 35rpx!important;
+    color: #414141!important;
+    width: 100%;
+}
+
+.cell-right {
+    color: #8d8d8d;
+    font-size: 30rpx;
+    display: flex;
+    align-items: center;
+    margin-right: 50rpx;
+}
+
+.cell-right image {
+    width: 16rpx;
+    height: 24rpx;
+    margin-left: 12rpx;
+}
+
+button::after,button {
+    border: none;
+    background: none;
+}
+
+.hidden-entrance {
+    width: 200rpx;
+    height: 200rpx;
+    opacity: 0;
+    position: relative;
+    z-index: 99;
+}
+button,button::after {
+    background: none;
+    border: none;
+}
+input{
+  outline:none;
+  border:none;
+  list-style: none;
+}
+.warrant .white{width:540rpx;height:580rpx;background-color:#fff;border-radius:15rpx;position:fixed;top:50%;left:54%;margin-left:-299.5rpx;margin-top:-345rpx;z-index:1000;}
+.warrant .white .pictrue{background-image:url("https://bmob-cdn-24322.bmobcloud.com/2019/07/25/f6e77de940d2441180ade9cacb7daf13.png");background-repeat:no-repeat;background-size:100% 100%;width:400rpx;height:270rpx;margin:10rpx auto 0 auto;}
+.warrant .white .tip{font-size:30rpx;color:#8a8a8a;text-align:center;margin-top:20rpx;padding:0 30rpx;}
+.warrant .white .tap{text-align:center;margin-top:20rpx;font-size:34rpx;font-weight:600;}
+.warrant .white button{width:200rpx;height:75rpx;line-height:75rpx;font-size:30rpx;border-radius:50rpx;margin-top:70rpx;}
+.warrant .white .no{background-color:#fff;color:#1bd0ad;border: 1rpx solid #1bd0ad;}
+.warrant .white .but{background-color:#1bd0ad;color:#fff;}
+.warrant .white .but::after{border:none;}
+.warrant .white .but:active{background-color:#1bd0ad;}
+.warrant .mask{position:fixed;top:0;right:0;left:0;bottom:0;background-color:rgba(0, 0, 0, 0.7);z-index: 999}

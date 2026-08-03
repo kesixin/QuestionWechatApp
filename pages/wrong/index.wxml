@@ -1,0 +1,23 @@
+<!--pages/wrong/index.wxml-->
+<view wx:if="{{menuStorageList.length < 1}}">
+  <view class='no-record'>
+    <image src='/images/no-record.png'></image>
+  </view>
+  <view bindtap="goLearn" class="errorstat">
+    <text>你答错的题目会自动记录到这里</text>
+    <view class="button">去练习</view>
+  </view>
+</view>
+<view>
+<view bindtap="goError" class="special-title" wx:for="{{menuStorageList}}" wx:key="category" data-cateid="{{item.cateid}}" data-menu="{{item.menu}}">
+    <view style="display:block;">
+      <view style="display:flex;align-items: center;">
+        <view class="icon">{{index+1}}</view>
+        <text>{{item.menu}}</text>
+      </view>
+    </view>
+    <view>
+      <image class="direction" src="/images/jkt/right.png"></image>
+    </view>
+  </view>
+</view>

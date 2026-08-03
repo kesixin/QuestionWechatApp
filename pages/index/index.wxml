@@ -1,103 +1,90 @@
-<!--pages/index/index.wxml-->
-<view>
-    <view class="question-wrap">
-        <view class="question">
-            <view class="left">
-                <view bindtap="orderGo" class="home-icon" data-mode="2">
-                    <form bindsubmit="formSubmit_random" reportSubmit="true">
-                        <button class="home-icon" formType="submit">
-                            <image mode="aspectFit" src="/images/sjlx.png"></image>
-                            <text>随机练习</text>
-                        </button>
-                    </form>
-                </view>
-            </view>
-            <view bindtap="orderGo" class="center">
-                <form bindsubmit="formSubmit_order" reportSubmit="true">
-                    <button formType="submit">
-                        <view class="progress-bg">
-                            <view class="progress-wrap">
-                                <view class="progress-title">顺序练习</view>
-                                <text>{{afternum}}/{{questionnum}}</text>
-                            </view>
-                            <image mode="widthFix" src="/images/green.png"></image>
-                        </view>
-                    </button>
-                </form>
-            </view>
-            <view class="right">
-                <view bindtap="defaultGo" class="home-icon" data-ind="0">
-                    <form bindsubmit="formSubmit_error" reportSubmit="true">
-                        <button class="home-icon" formType="submit">
-                            <image mode="aspectFit" src="/images/wdct.png"></image>
-                            <view class="ct-num" wx:if="{{ctNum>0}}">{{ctNum<=99?ctNum:99}}<text class="ct-num-icon"
-                                    wx:if="{{ctNum>99}}">+</text>
-                                    <text style="padding-right:5rpx" wx:if="{{ctNum>99}}"></text>
-                            </view>
-                            <text>我的错题</text>
-                        </button>
-                    </form>
-                </view>
-            </view>
-        </view>
+<!--index.wxml-->
+<view class='page'>
+  <view class='head'>
+    <view class="topBG">
+      <image class="topImage" src="https://upload-images.jianshu.io/upload_images/6673460-bc716a04d5f6091c.png"></image>
     </view>
-    <view class="question-wrap">
-        <view class="question">
-            <view class="left">
-                <view bindtap="headerMenu" class="home-icon">
-                    <form bindsubmit="formSubmit_rank" reportSubmit="true">
-                        <button class="home-icon" formType="submit">
-                            <image mode="aspectFit" src="/images/zxlx.png"></image>
-                            <text>成绩排名</text>
-                        </button>
-                    </form>
-                </view>
-            </view>
-            <view bindtap="examGo" class="center">
-                <form bindsubmit="formSubmit_exam" reportSubmit="true">
-                    <button formType="submit">
-                        <view class="progress-bg">
-                            <view class="progress-wrap progress-wrap-blue">
-                                <view class="progress-title">模拟考试</view>
-                                <text>100%仿真</text>
-                            </view>
-                            <image mode="widthFix" src="/images/blue.png"></image>
-                        </view>
-                    </button>
-                </form>
-            </view>
-            <view class="right">
-                <view bindtap="defaultGo" class="home-icon" data-ind="1">
-                    <form bindsubmit="formSubmit_grade" reportSubmit="true">
-                        <button class="home-icon" formType="submit">
-                            <image mode="aspectFit" src="/images/wdsc.png"></image>
-                            <text>我的收藏</text>
-                        </button>
-                    </form>
-                </view>
-            </view>
-        </view>
-    </view>
-    <component-banner></component-banner>
-    <view class="God-wrap">
-        <view class="God-title">
-            <image mode="widthFix" src="/images/jiangb.png"></image>
-            <text style="color:#000;font-size:27rpx">智汇答题Plus </text>
-            <text style="color:#666666;font-size:23rpx;margin-left:10rpx;"> | 神器在手 智汇我有</text>
-        </view>
+    <view class='todayData'>
+      <view style='padding:20rpx;'>
+        <image class='signIn' src='{{userInfo.avatarUrl}}' wx:if="{{userInfo.avatarUrl}}"></image>
+        <button hover-class='none' bindtap='login' style='background-color:transparent;' wx:else>
+          <view>
+            <image class='signIn' src='/images/header.png'></image>
+            <view style="font-size:38rpx;">点击登录</view>
+          </view>
+        </button>
+      </view>
+      <view class='headBottom1' wx:if="{{userInfo.avatarUrl}}">
+        <view class='name1'>姓名:</view>
+        <view class='department1'>部门:</view>
+      </view>
+      <view class='headBottom2' wx:if="{{userInfo.avatarUrl}}">
+        <view class='name2' wx:if="{{userInfo.realname}}">{{userInfo.realname}}</view>
+        <view class='name2' wx:else>暂无信息</view>
+        <view class='department2' wx:if="{{userInfo.department}}">{{userInfo.department}}</view>
+        <view class='department2' wx:else>暂无信息</view>
+      </view>
     </view>
 
-    <view class="cell-wrap cell-one">
-        <view bindtap="myQuestion" class="cell">
-            <view class="cell-left">
-                <image src="/images/icon_school.png"></image>
-                <text>我的题库</text>
+  </view>
+  <view class='swiper-box on'>
+    <view class='bg-container'>
+
+      <!-- 练习区域 -->
+      <view class="bg-1 css-shadow bg-border">
+        <view class="bg-2 bg-border">
+          <view class="bg-3 bg-border">
+            <view class="bg-content bg-border" bindtap='gocenter'>
+              <view>个人中心</view>
             </view>
-            <view class="cell-right">
-                <text>{{cateName}}</text>
-                <image src="/images/right.png"></image>
-            </view>
+          </view>
         </view>
+
+
+      </view>
+
     </view>
-    <view class="cell-wrap" style="margin-bottom:88rpx;"></view>
+
+    <view class='bg-line-top'>
+      <!-- <navigator url="/pages/category/index?action=learn" class="bg-button-module css-shadow">
+        <image src="/images/icon_zhangjielianxi@3x.png" style="height:50px;width:50px;"></image>
+        <view>练习</view>
+      </navigator> -->
+      <navigator class="bg-button-module css-shadow" bindtap='goLearn'>
+        <image src="/images/icon_zhangjielianxi@3x.png" style="height:50px;width:50px;"></image>
+        <view>练习</view>
+      </navigator>
+
+      <navigator class="bg-button-module css-shadow" bindtap='goExam'>
+        <image src="/images/icon_monikaoshi@3x.png" style="height:50px;width:50px;"></image>
+        <view>答题</view>
+      </navigator>
+    </view>
+
+    <view class='bg-line-bottom'>
+      <navigator url="/pages/wrong/index" class="bg-button-module css-shadow">
+        <image src="/images/icon_cuotishoucang@3x.png" style="height:50px;width:50px;"></image>
+        <view>错题</view>
+      </navigator>
+
+      <navigator url="/pages/category/index?action=rank" class="bg-button-module css-shadow">
+        <image src="/images/icon_monichnegji@3x.png" style="height:50px;width:50px;"></image>
+        <view>排名</view>
+      </navigator>
+    </view>
+  </view>
+  <!-- <image class='bottimBG' src='/images/BG.png' ></image> -->
+</view>
+  <view class="warrant" wx:if="{{!is_login}}">
+     <view class='white'>
+        <view class='tap'>您还未登录</view>
+        <view class='tip'>请先登录再进行操作</view>
+        <view class='pictrue'></view>
+        <view style='display:flex;'>
+          <button class='no' type="primary" bindtap='login' lang="zh_CN">暂不登录</button> 
+          <button wx:if="{{canIUseGetUserProfile}}"  class='but' bindtap="getUserProfile">立即登录</button>
+          <button wx:else class='but' type="primary" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindgetuserinfo">立即登录</button> 
+        </view>
+     </view>
+     <view class='mask'></view>
 </view>

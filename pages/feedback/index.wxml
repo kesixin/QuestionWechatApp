@@ -1,0 +1,14 @@
+<!--pages/feedback/index.wxml-->
+<view>
+  <form bindsubmit='bindsubmit'>
+    <view class="remark">
+      <text class="remark-title"><text>*</text> 联系方式:</text>
+      <textarea bindblur="bindTextAreaBlur" class="inputRemark" maxlength="500" name="contact" placeholder="请输入您的联系方式（QQ或微信）" style="height:120rpx;"></textarea>
+    </view>
+    <view class='remark'>
+      <text class="remark-title"><text>*</text> 反馈内容：</text>
+      <textarea bindblur="bindTextAreaBlur" class="inputRemark" maxlength="500" name="content" placeholder="请输入反馈内容"></textarea>
+    </view>
+    <button class="submitButton" formType="submit">提交</button>
+  </form>
+</view>

@@ -1,0 +1,36 @@
+<!--pages/rank/index.wxml-->
+<view wx:if="{{rankList.length < 1}}" style='position:fixed;left:0;top:0;right:0;bottom:0;background:#fff;'>
+  <view class='no-record'>
+    <image src='/images/no-record.png'></image>
+  </view>
+  <view bindtap="goBack" class="errorstat">
+    <view class="button">返回</view>
+  </view>
+</view>
+<view wx:if="{{rankList.length > 0}}">
+  <block wx:for="{{rankList}}" wx:for-item="itemChild" wx:for-index="idx">
+  <view class='ls-item'>
+    <view class='ls-l ls-l{{idx+1}}'>
+      <view wx:if="{{idx<=2}}" class='img_'>
+        <image wx:if="{{idx==0}}" src='/images/jkt/rank-01.png'></image>
+        <image wx:if="{{idx==1}}" src='/images/jkt/rank-02.png'></image>
+        <image wx:if="{{idx==2}}" src='/images/jkt/rank-03.png'></image>
+      </view>
+      <text wx:if="{{idx>2}}">{{idx+1}}</text>
+    </view>
+    <view class='ls-c'>
+      <view class='ls-c-img'>
+        <image src="{{itemChild.avatarUrl}}"></image>
+      </view>
+      <view class='ls-c-txt'>
+        <view class='fl' style='display:flex;'>
+          <view class='ls-c-t'>{{itemChild.nickName}}</view>
+          <view class='ls-c-b'>获得<text>{{itemChild.score}}</text>分</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</block>
+</view>
+
+<!-- <i-load-more  tip="{{bottomWord}}" loading="{{loadMore}}" hidden="{{loadMores}}"/> -->

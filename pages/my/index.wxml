@@ -1,0 +1,45 @@
+<!--pages/my/index.wxml-->
+<view class="center-wrap">
+    <view class="topBG">
+        <image class="topImage" src="https://upload-images.jianshu.io/upload_images/6673460-bc716a04d5f6091c.png"></image>
+        <view wx:if="{{userInfo.avatarUrl}}">
+          <image class="head" src="{{userInfo.avatarUrl}}"></image>
+          <view class="name">{{userInfo.nickName}}</view>
+        </view>
+        <button hover-class='none' bindtap='login' style='background-color:transparent;' wx:else>
+          <view>
+            <image class='head' style='z-index:9;' src='/images/header.png'></image>
+            <view class="name">点击登录</view>
+          </view>
+        </button>
+    </view>
+  <view class="cell-list">
+    <view bindtap="go_view" class="cell" data-viewInd="{{index}}" wx:for="{{cellList}}" wx:key="{{index}}">
+        <view class="cell-left">
+          <view class="cell-icon">
+            <image src="{{item.icon}}"></image>
+          </view>
+          <view class="cell-text">
+            <text wx:if="{{item.title!='分享好友'}}">{{item.title}}</text>
+            <button openType="share" style="width:150%" wx:if="{{item.title=='分享好友'}}">{{item.title}}</button>
+          </view>
+        </view>
+        <view class="cell-right">
+          <image src="/images/jkt/right.png"></image>
+        </view>
+    </view>
+  </view>
+</view>
+  <view class="warrant" wx:if="{{!is_login}}">
+     <view class='white'>
+        <view class='tap'>您还未登录</view>
+        <view class='tip'>请先登录再进行操作</view>
+        <view class='pictrue'></view>
+        <view style='display:flex;'>
+          <button class='no' type="primary" bindtap='login' lang="zh_CN">暂不登录</button> 
+          <button wx:if="{{canIUseGetUserProfile}}"  class='but' bindtap="getUserProfile">立即登录</button>
+          <button wx:else class='but' type="primary" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindgetuserinfo">立即登录</button> 
+        </view>
+     </view>
+     <view class='mask'></view>
+</view>

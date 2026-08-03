@@ -1,0 +1,134 @@
+/* pages/record/index.wxss */
+.no-record{
+  text-align:center;
+  margin-top:20px;
+}
+.no-record image{
+  width:250rpx;
+  height:250rpx;
+}
+.errorstat {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: -30%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.errorstat text {
+    color: #999999;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.button {
+    background: #1bd0ad;
+    color: #fff;
+    width: 400rpx;
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 24px auto;
+    padding: 8rpx;
+}
+.wraplist {
+    background: #fff;
+    height: auto;
+}
+
+.top {
+    position: relative;
+    height: 60rpx;
+    padding-top: 20px;
+}
+
+.top text {
+    position: absolute;
+    background: #e6e6e6;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 50%;
+}
+
+.top view {
+    font-size: 33rpx;
+    width: 260rpx;
+    text-align: center;
+    height: 45rpx;
+    line-height: 45rpx;
+    border-radius: 45rpx;
+    margin: auto;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding-left: 10rpx;
+    padding-right: 10rpx;
+}
+.title {
+    margin-left: 42rpx;
+    margin-right: 22rpx;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24rpx;
+    padding-bottom: 30rpx;
+    padding-top: 30rpx;
+}
+.title>text {
+    flex: 1;
+}
+.title text {
+    font-size: 30rpx;
+}
+.list {
+    margin-left: 42rpx;
+    margin-right: 22rpx;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24rpx;
+    padding-bottom: 30rpx;
+    padding-top: 30rpx;
+}
+
+.list>text {
+    flex: 1;
+}
+
+.list text:nth-child(1) {
+    font-size: 30rpx;
+}
+
+.list text:nth-child(2) {
+    color: #414141;
+}
+
+.list text:nth-child(3) {
+    color: #a0a0a0;
+}
+
+.list text:nth-child(4) {
+    font-size: 30rpx;
+}
+
+.list text:nth-child(1) .span {
+    font-size: 22rpx;
+}
+
+.list .colorbule {
+    color: #38a8ef;
+    font-weight: bold;
+}
+
+.list .colororange {
+    color: #fc3670;
+    font-weight: bold;
+}

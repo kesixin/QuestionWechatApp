@@ -1,0 +1,38 @@
+/* pages/feedback/index.wxss */
+page {
+    font-size: 32rpx;
+    font-family: 'PingFang SC','Helvetica Neue',Helvetica,'Droid Sans Fallback','Microsoft Yahei',sans-serif;
+    background-color: #ffffff;
+}
+.remark {
+    margin-top: 5rpx;
+    background-color: #fff;
+    border-bottom: 2rpx #efefef solid;
+}
+
+.remark-title {
+    display: flex;
+    color: #1bd0bd;
+    padding: 10rpx 0rpx 40rpx 20rpx;
+}
+.remark-title text{
+  color: red;
+}
+.inputRemark {
+    padding: 0rpx 20rpx 0rpx 20rpx;
+    width: 90%;
+}
+.submitButton {
+    width: 220rpx;
+    height: 70rpx;
+    background-color: #1bd0ad;
+    border-radius: 30px;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 30rpx;
+    margin-top: 60rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
