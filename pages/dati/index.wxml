@@ -9,6 +9,7 @@
             <text>{{downContent.title}}</text>
           </view>
         </view>
+
         <view class="answer-ziyuan">
           <image mode="aspectFit" src="{{downContent.picUrl}}" wx:if="{{downContent.picUrl}}"></image>
         </view>
