@@ -10,6 +10,7 @@
         <view bindtap="gotrue" class="marktrue">确定</view>
     </view>
 </view>
+
 <view bindtap="examStop" class="tab-wrap" wx:if="{{timeshow}}">
     <view class="tab">
         <image src="/images/nav_icon_time@2x.png"></image>
