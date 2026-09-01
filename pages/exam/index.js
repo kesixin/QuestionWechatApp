@@ -1,6 +1,5 @@
 // pages/exam/index.js
 Page({
-
   data: {
     setInter: '',
     iconInd: !1,
