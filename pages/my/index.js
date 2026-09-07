@@ -14,6 +14,7 @@ var e =[{
     icon: "/images/icon_center_tj.png",
     title: "关于我们"
   }]
+
 Page({
 
   /**
