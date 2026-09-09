@@ -47,7 +47,6 @@ Page({
   },
 
   onReady: function() {
-
   },
 
   
