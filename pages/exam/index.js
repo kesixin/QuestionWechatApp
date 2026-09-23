@@ -35,7 +35,6 @@ Page({
     },
   },
 
-  
   onLoad: function(options) {
     console.log(this.data.s)
     this.setData({
