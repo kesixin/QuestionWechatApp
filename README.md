@@ -16,8 +16,7 @@
 
 ![QQ](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2023-01-16/fd7054c9016fcf2dbf3144881bdfec88.jpeg)
 
-### 微信公众号
-![](https://mamba-blog-images.oss-cn-shanghai.aliyuncs.com/2024-03-01/df75bce97c6bda96bb5958a987b1dc90.jpg)
+
 
 
 
