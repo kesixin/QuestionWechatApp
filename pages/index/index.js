@@ -60,7 +60,6 @@ Page({
       is_login:!this.data.is_login
     })
   },
-  
   bindgetuserinfo: function () {
     this.login()
     var that = this
