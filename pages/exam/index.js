@@ -152,8 +152,6 @@ Page({
         }
       })
     }
-
-
   },
 
   onHide: function() {
