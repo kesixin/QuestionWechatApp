@@ -121,7 +121,7 @@ Page({
         confirmText: "继续答题",
         content: "上次考试您已经做到第" + storageData.indexInd + "题,重新考试答题记录会丢失~",
         success: function (n) {
-          if (console.log(n), n.confirm) {
+          if (n.confirm) {
 
             a.setData({
               questionList: storageData.questionList,
