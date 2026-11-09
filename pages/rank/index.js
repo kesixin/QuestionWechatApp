@@ -11,7 +11,6 @@ Page({
     pagination: 0,//页码
     rankList: [],
     bottomWord: '',
-    
   },
 
   /**
