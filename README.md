@@ -20,7 +20,17 @@
 ## 特别感谢 ❤️
 感谢 [序点算力](https://api.xudiansuanli.com/register?aff=28XRF9WC85YR) 赞助本项目！**【序点算力】🛡️ 企业级极速稳定，满血并发、专线直连不卡顿，满血、不掺水 。**
 
-
+<table align="center">
+  <tr>
+    <td align="center" width="120">
+      <a href="https://api.xudiansuanli.com/register?aff=28XRF9WC85YR"><img src="https://treasure.mambaxin.com/uploads/question/20261116/s_6afa624790178.png" alt="序点算力" height="32"></a><br>
+      <a href="https://api.xudiansuanli.com/register?aff=28XRF9WC85YR"><strong>序点算力</strong></a>
+    </td>
+    <td align="left">
+      感谢序点算力赞助本项目！序点算力，企业级极速稳定，满血并发、专线直连不卡顿，满血、不掺水。稳定、高性价比的一站式大模型聚合分发与中转枢纽。让接入更简单，让每一份算力物有所值。<a href="https://api.xudiansuanli.com/register?aff=28XRF9WC85YR">立即前往</a>
+    </td>
+  </tr>
+</table>
 
 ### 智汇考题(支持java版)
 ## 小程序功能截图
