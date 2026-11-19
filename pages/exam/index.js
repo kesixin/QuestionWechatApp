@@ -45,7 +45,6 @@ Page({
     // this.timeServal(44)
   },
 
-  
   onReady: function() {
   },
 
