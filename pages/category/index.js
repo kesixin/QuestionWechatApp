@@ -6,6 +6,7 @@ Page({
     action:''
   },
 
+  
   onLoad: function (options) {
     wx.showLoading({
       title: '正在加载',
